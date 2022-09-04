@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+.productContainer{
+    font-family: 'Josefin Sans', sans-serif;
+    width: 300px;
+    min-height: 400px;
+    margin: 30px;
+    background: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.productImage>img{
+    width: 300px;
+}
+.productName>p{
+    text-align: center;
+}
+.productDescription{
+    margin: 0 10px;
+}
+.productButton>button{
+    margin-bottom: 5px;
+    border:none;
+    border-radius: 2.5px;
+    padding: 5px;
+    background: #91189c;
+    color: white;
+}
+.productButton>button:hover{
+    cursor: pointer;
+    background: #bd3ec9;
+}

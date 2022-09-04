@@ -1,0 +1,9 @@
+*{
+    box-sizing: border-box;
+}
+.productspageContainer{
+    border: 1px solid red;
+    width: 100%;
+    height: 90vh;
+    background: url("./Images/productspagebackground.jpg");
+}
