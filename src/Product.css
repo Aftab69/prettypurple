@@ -3,7 +3,7 @@
 }
 .productContainer{
     font-family: 'Josefin Sans', sans-serif;
-    width: 300px;
+    max-width: 300px;
     min-height: 400px;
     margin: 30px;
     background: black;
@@ -14,7 +14,7 @@
     align-items: center;
 }
 .productImage>img{
-    width: 300px;
+    max-width: 300px;
 }
 .productName>p{
     text-align: center;
