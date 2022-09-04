@@ -1,22 +1,21 @@
 import React from 'react'
 import "./Product.css"
-import image1 from "./Images/camera.jpg"
 
-const Product = () => {
+const Product = (props) => {
   return (
     <>
       <div className='productContainer'>
         <div className='productImage'>
-            <img src={image1} alt={image1} />
+            <img src={props.productImage} alt={props.productImage} />
         </div>
         <div className='productName'>
-            <p>CAMERA</p>
+            <p>{props.productName}</p>
         </div>
         <div className='productDescription'>
-            <p>This product is used for photoshoot.</p>
+            <p>{props.productDes}</p>
         </div>
         <div className='productPricing'>
-            <p>Rs 50,000</p>
+            <p>{props.productPrice}</p>
         </div>
         <div className='productButton'>
             <button>Add to Cart</button>

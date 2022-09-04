@@ -4,6 +4,12 @@
 .productspageContainer{
     border: 1px solid red;
     width: 100%;
-    height: 90vh;
-    background: url("./Images/productspagebackground.jpg");
+    min-height: 90vh;
+    background-image: url("./Images/productspagebackground.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
