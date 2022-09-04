@@ -12,10 +12,6 @@ const Productspage = () => {
         <Product productImage={image1} productName="CAMERA" productDes="This product is used for photoshoot." productPrice="Rs 50,000" />
         <Product productImage={image2} productName="DRONE" productDes="This product is used for flying and clicking photos." productPrice="Rs 1,50,000" />
         <Product productImage={image3} productName="TELEVISION" productDes="This product is used for watching movies and series." productPrice="Rs 25,000" />
-        <Product productImage={image1} productName="CAMERA" productDes="This product is used for photoshoot." productPrice="Rs 50,000" />
-        <Product productImage={image2} productName="DRONE" productDes="This product is used for flying and clicking photos." productPrice="Rs 1,50,000" />
-        <Product productImage={image3} productName="TELEVISION" productDes="This product is used for watching movies and series." productPrice="Rs 25,000" />
-        <Product productImage={image1} productName="CAMERA" productDes="This product is used for photoshoot." productPrice="Rs 50,000" />
       </div>
     </>
   )

@@ -2,11 +2,10 @@
     box-sizing: border-box;
 }
 .productspageContainer{
-    border: 1px solid red;
-    width: 100%;
-    min-height: 90vh;
     background-image: url("./Images/productspagebackground.jpg");
     background-size: cover;
+    width: 100%;
+    min-height: 90vh;
     display: flex;
     justify-content: center;
     align-items: center;
