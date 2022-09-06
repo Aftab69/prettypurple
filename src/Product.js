@@ -3,15 +3,23 @@ import "./Product.css"
 import { CartContext } from "./Context.js"
 
 const Product = (props) => {
-
-  //from Context.js
-  let { itemnumber, setItemnumber } = useContext(CartContext)
   
+  //from Context.js
+  let { itemnumber, setItemnumber, cart, setCart } = useContext(CartContext)
+
   const handleAddToCart = () =>{
     setItemnumber(itemnumber=itemnumber+1)
-    document.getElementById(props.productName).disabled = true;
+      setCart([...cart,props.data])
   }
-  console.log(itemnumber)
+
+  const handleRemoveFromCart = () =>{
+    setItemnumber(itemnumber=itemnumber-1)
+      setCart(cart.filter((item)=>(
+        item.name !== props.data.name
+      )))
+  }
+  console.log(cart)
+  console.log(props.data)
   return (
     <>
       <div className='productContainer'>
@@ -25,10 +33,14 @@ const Product = (props) => {
             <p>{props.productDes}</p>
         </div>
         <div className='productPricing'>
-            <p>{props.productPrice}</p>
+            <p>₹ {props.productPrice}</p>
         </div>
         <div className='productButton'>
-            <button id={props.productName} onClick={handleAddToCart}>Add to Cart</button>
+          { cart.includes(props.data) ?
+          <button id={props.productName} onClick={handleRemoveFromCart}>Remove from cart</button> :
+          <button id={props.productName} onClick={handleAddToCart}>Add to cart</button>
+          }
+            
         </div>
       </div>
     </>

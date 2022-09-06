@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url("./Images/cartpagebackground.jpg");
+    background-size: cover;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.cartTotalDisplayContainer{
+    min-height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(255, 230, 0);
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    font-size: 0.95rem;
+}
+.cartpageContainer{
+    width: 100%;
+    min-height: 75vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.checkoutButtonDisplayContainer{
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(255, 230, 0);
+}
+.checkoutButtonDisplayContainer>button{
+    border:none;
+    border-radius: 2.5px;
+    padding: 5px;
+    background: #000000;
+    color: white;
+    width: 150px;
+    height: 50px;
+    font-size: 1.2rem;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.checkoutButtonDisplayContainer>button:hover{
+    cursor: pointer;
+    background: #464546;
+}   
