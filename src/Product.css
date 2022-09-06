@@ -6,7 +6,7 @@
     max-width: 300px;
     min-height: 400px;
     margin: 30px;
-    background: black;
+    background: rgb(0, 0, 0);
     color: white;
     display: flex;
     flex-direction: column;
@@ -23,7 +23,7 @@
     margin: 0 10px;
 }
 .productButton>button{
-    margin-bottom: 5px;
+    margin-bottom: 15px;
     border:none;
     border-radius: 2.5px;
     padding: 5px;
@@ -33,4 +33,32 @@
 .productButton>button:hover{
     cursor: pointer;
     background: #bd3ec9;
+}
+
+@media only screen and (min-width: 1921px) and (max-width: 2880px){
+    .productContainer{
+        max-width: 450px;
+        min-height: 600px;
+    }
+    .productImage>img{
+        max-width: 450px;
+    }
+    .productButton>button{
+        padding: 7.5px;
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (min-width: 2881px){
+    .productContainer{
+        max-width: 600px;
+        min-height: 800px;
+    }
+    .productImage>img{
+        max-width: 600px;
+    }
+    .productButton>button{
+        padding: 10px;
+        margin-bottom: 25px;
+    }
 }

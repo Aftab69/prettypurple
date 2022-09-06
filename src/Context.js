@@ -28,9 +28,10 @@ const Context = ({children}) => {
     let [ itemnumber, setItemnumber ] = useState(0);
     let [ cart, setCart ] = useState([]);
     let [ total, setTotal ] = useState();
+    const [ checkoutform, setCheckoutform ] = useState({display:"none"})
   return (
     <>
-        <CartContext.Provider value={{ itemnumber, setItemnumber, cart, setCart, products, total, setTotal }}>
+        <CartContext.Provider value={{ itemnumber, setItemnumber, cart, setCart, products, total, setTotal,checkoutform, setCheckoutform }}>
             {children}
         </CartContext.Provider>
     </>
