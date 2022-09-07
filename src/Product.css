@@ -6,6 +6,7 @@
     max-width: 300px;
     min-height: 400px;
     margin: 30px;
+    padding-bottom: 15px;
     background: rgb(0, 0, 0);
     color: white;
     display: flex;
@@ -34,6 +35,21 @@
     cursor: pointer;
     background: #bd3ec9;
 }
+.quantityContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.quantityContainer>button{
+    font-size: 1rem;
+    font-weight: 600;
+    width: 30px;
+    height: 30px;
+}
+.quantityContainer>button:hover{
+    cursor: pointer;
+}
 
 @media only screen and (min-width: 1921px) and (max-width: 2880px){
     .productContainer{
@@ -46,6 +62,11 @@
     .productButton>button{
         padding: 7.5px;
         margin-bottom: 20px;
+    }
+    .quantityContainer>button{
+        font-size: 1.25rem;
+        width: 45px;
+        height: 45px;
     }
 }
 
@@ -60,5 +81,10 @@
     .productButton>button{
         padding: 10px;
         margin-bottom: 25px;
+    }
+    .quantityContainer>button{
+        font-size: 1.5rem;
+        width: 60px;
+        height: 60px;
     }
 }

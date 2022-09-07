@@ -7,16 +7,14 @@ import emailjs from "@emailjs/browser";
 const Cartpage = () => {
   let { cart, total, setTotal, checkoutform, setCheckoutform } = useContext(CartContext)
   useEffect(()=>{
-    setTotal(cart.reduce((acc, curr) => acc + Number(curr.price), 0))
+    setTotal(cart.reduce((acc, curr) => acc + Number(curr.price*curr.amount), 0))
     // eslint-disable-next-line
   },[cart])
-  console.log(total)
 
   let productnames = "";
   cart.map((each)=>(
-    productnames=productnames+": "+each.name
+    productnames=productnames+" : "+each.amount+" X "+each.name
   ))
-  console.log(productnames)
 
   const handlecheckout = (e) =>{
     e.preventDefault();
@@ -52,7 +50,7 @@ const Cartpage = () => {
       <div className='cartpageContainer'>
       {
           cart.map((product)=>(
-            <Product key={product.name} data={product} productImage={product.image} productName={product.name} productDes={product.description} productPrice={product.price} />
+            <Product key={(Math.random()*Number(product.amount)).toString()} data={product} productImage={product.image} productName={product.name} productDes={product.description} productPrice={product.price} />
           ))
         }
       </div>
