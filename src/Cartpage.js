@@ -30,7 +30,7 @@ const Cartpage = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_8pat0om', 'template_ui3wpc9', form.current, 'ZiJUUW6UQfngNLJ73')
+    emailjs.sendForm('service_9eg4swo', 'template_guc6s4m', form.current, 'VlmeDF_H35GNGqnMy')
       .then((result) => {
           console.log(result.text);
           window.alert("Message sent successfully");
