@@ -49,9 +49,6 @@ const Product = (props) => {
         <div className='productName'>
             <p>{props.productName}</p>
         </div>
-        <div className='productDescription'>
-            <p>{props.productDes}</p>
-        </div>
         <div className='productPricing'>
             <p>₹ {props.productPrice}</p>
         </div>

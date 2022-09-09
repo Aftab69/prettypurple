@@ -5,36 +5,37 @@ import image3 from "./Images/television.jpg"
 export const CartContext = createContext();
 
 const Context = ({children}) => {
-  const [products] = useState([
+  const [ products ] = useState([
     {
       image:image1,
-      name:"CAMERA",
-      description:"This product is used for photoshoot.",
+      name:"SONY CAMERA",
       price:"50000",
+      category:"camera",
       amount:"1"
     },
     {
       image:image2,
-      name:"DRONE",
-      description:"This product is used for flying and clicking photos.",
+      name:"MICROMAX DRONE",
       price:"150000",
+      category:"drone",
       amount:"1"
     },
     {
       image:image3,
-      name:"TELEVISION",
-      description:"This product is used for watching movies and series.",
+      name:"REALME TELEVISION",
       price:"25000",
+      category:"television",
       amount:"1"
     }
   ])
     let [ itemnumber, setItemnumber ] = useState(0);
     let [ cart, setCart ] = useState([]);
     let [ total, setTotal ] = useState();
+    let [ filter, setFilter ] = useState(products)
     const [ checkoutform, setCheckoutform ] = useState({display:"none"})
   return (
     <>
-        <CartContext.Provider value={{ itemnumber, setItemnumber, cart, setCart, products, total, setTotal,checkoutform, setCheckoutform }}>
+        <CartContext.Provider value={{ itemnumber, setItemnumber, cart, setCart, products, filter, setFilter, total, setTotal,checkoutform, setCheckoutform }}>
             {children}
         </CartContext.Provider>
     </>

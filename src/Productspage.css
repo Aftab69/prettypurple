@@ -5,10 +5,46 @@
     background-image: url("./Images/productspagebackground.jpg");
     background-size: cover;
     width: 100%;
-    min-height: 90vh;
+    min-height: 85vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
+}
+.filteroptionContainer{
+    background: #f1c40f;
+    width: 100%;
+    min-height: 5vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.filteroptionContainer>button{
+    margin:10px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    background: #630e79;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.filteroptionContainer>button:hover{
+    cursor: pointer;
+    background: #8a2da1;
+}
+
+@media only screen and (min-width: 1921px) and (max-width: 2880px){
+    .filteroptionContainer>button{
+        margin: 15px;
+        padding: 15px;
+    }
+}
+@media only screen and (min-width: 2881px){
+    .filteroptionContainer>button{
+        margin: 20px;
+        padding: 20px;
+    }
 }
