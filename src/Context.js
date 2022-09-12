@@ -1,30 +1,87 @@
 import React, { useState,createContext } from 'react'
-import image1 from "./Images/camera.jpg"
-import image2 from "./Images/drone.jpg"
-import image3 from "./Images/television.jpg"
+import image1 from "./Images/01.jpg"
+import image2 from "./Images/02.jpg"
+import image3 from "./Images/03.jpg"
+import image4 from "./Images/04.jpg"
+import image5 from "./Images/05.jpg"
+import image6 from "./Images/06.jpg"
+import image7 from "./Images/07.jpg"
+import image8 from "./Images/08.jpg"
+import image9 from "./Images/09.jpg"
+import image10 from "./Images/10.jpg"
+
 export const CartContext = createContext();
 
 const Context = ({children}) => {
   const [ products ] = useState([
     {
       image:image1,
-      name:"SONY CAMERA",
-      price:"50000",
-      category:"camera",
+      name:"BLACK RESIN EARRING",
+      price:"150",
+      category:"earrings",
       amount:"1"
     },
     {
       image:image2,
-      name:"MICROMAX DRONE",
-      price:"150000",
-      category:"drone",
+      name:"HOWL'S MOVING CASTLE EARRING",
+      price:"100",
+      category:"earrings",
       amount:"1"
     },
     {
       image:image3,
-      name:"REALME TELEVISION",
-      price:"25000",
-      category:"television",
+      name:"SEQUENCE FABRIC EARRING",
+      price:"100",
+      category:"earrings",
+      amount:"1"
+    },
+    {
+      image:image4,
+      name:"ALPHABET KEYRING",
+      price:"100",
+      category:"keyrings",
+      amount:"1"
+    },
+    {
+      image:image5,
+      name:"GAMUSA EARRING",
+      price:"150",
+      category:"gamusa jewellery",
+      amount:"1"
+    },
+    {
+      image:image6,
+      name:"GAMUSA EARRING",
+      price:"150",
+      category:"gamusa jewellery",
+      amount:"1"
+    },
+    {
+      image:image7,
+      name:"GAMUSA JEWELLERY SET",
+      price:"200",
+      category:"gamusa jewellery",
+      amount:"1"
+    },
+    {
+      image:image8,
+      name:"GAMUSA EARRING",
+      price:"150",
+      category:"gamusa jewellery",
+      amount:"1"
+    },
+    {
+      image:image9,
+      name:"GAMUSA EARRING",
+      price:"150",
+      category:"gamusa jewellery",
+      amount:"1"
+    },
+    {
+      image:image10,
+      name:"GAMUSA EARRING",
+      price:"150",
+      category:"gamusa jewellery",
       amount:"1"
     }
   ])

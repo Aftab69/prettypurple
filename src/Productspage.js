@@ -23,15 +23,14 @@ const Productspage = () => {
     <>
       <div className='filteroptionContainer'>
         <button onClick={handleallproducts}>ALL PRODUCTS</button>
-        <button name="camera" onClick={handlefilter}>CAMERAS</button>
-        <button name="drone" onClick={handlefilter}>DRONES</button>
-        <button name="television" onClick={handlefilter}>TELEVISIONS</button>
-        <button name="gift hampers" onClick={handlefilter}>GIFT HAMPERS</button>
+        <button name="earrings" onClick={handlefilter}>EARRINGS</button>
+        <button name="keyrings" onClick={handlefilter}>KEYRINGS</button>
+        <button name="gamusa jewellery" onClick={handlefilter}>GAMUSA JEWELLERY</button>
       </div>
       <div className='productspageContainer'>
         {
           filter.map((product)=>(
-            <Product key={product.name} data={product} productImage={product.image} productName={product.name} productDes={product.description} productPrice={product.price} />
+            <Product key={product.image} data={product} productImage={product.image} productName={product.name} productDes={product.description} productPrice={product.price} />
           ))
         }
       </div>
