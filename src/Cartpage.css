@@ -110,6 +110,9 @@ body{
     font-family: 'Josefin Sans', sans-serif;
     resize: none;
 }
+#whatsapptextarea{
+    height: 7%;
+}
 .formContainer>textarea::placeholder{
     font-family: 'Josefin Sans', sans-serif;
 }
@@ -128,6 +131,10 @@ body{
 }
 .formContainer>button{
     font-family: 'Josefin Sans', sans-serif;
+}
+.disclaimerContainer{
+    width: 80%;
+    font-weight: 600;
 }
 
 @media only screen and (min-width:481px) and (max-width:1080px){

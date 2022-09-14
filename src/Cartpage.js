@@ -64,10 +64,16 @@ const Cartpage = () => {
                 <form ref={form} onSubmit={sendEmail} className='formContainer'>
                   <input type="text" name="user_name" placeholder='Enter your name' required />
                   <input type="email" name="user_email" placeholder='Enter a valid email address' required />
-                  <textarea type="text" name="message" placeholder='Enter your address' required />
-                  <textarea type="number" name="message" placeholder='Enter your whatsapp number' required />
+                  <textarea type="text" name="message" placeholder='Enter your whatsapp number' id='whatsapptextarea' required />
+                  <textarea type="number" name="message" placeholder='Enter your address' required />
                   <textarea style={{display:"none"}} type="text" name="message" value={`Amount to pay- Rs ${total}; Items${productnames}`} placeholder='Enter your address' required />
+                  <div className='disclaimerContainer'>
+                    <p>Disclaimer:</p>
+                    <p>1. No refunds &amp; online payments accepted only.</p>
+                    <p>2. We will contact you shortly on your whatsapp number for payment process.</p>
+                  </div>
                   <button type="submit" value="Send">Order</button>
+                  
                </form>
                </div>
            </div>
