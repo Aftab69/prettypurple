@@ -91,7 +91,7 @@ body{
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    background-color: rgba(130, 112, 177, 0.884);
+    background-color: rgba(148, 132, 189, 0.884);
     border-radius: 15px;
 }
 .formContainer>input{

@@ -9,6 +9,9 @@ import image7 from "./Images/07.jpg"
 import image8 from "./Images/08.jpg"
 import image9 from "./Images/09.jpg"
 import image10 from "./Images/10.jpg"
+import image11 from "./Images/11.jpg"
+import image12 from "./Images/12.jpg"
+import image13 from "./Images/13.jpg"
 
 export const CartContext = createContext();
 
@@ -82,6 +85,27 @@ const Context = ({children}) => {
       name:"GAMUSA EARRING",
       price:"150",
       category:"gamusa jewellery",
+      amount:"1"
+    },
+    {
+      image:image11,
+      name:"FLAT PEARL EARRING",
+      price:"100",
+      category:"earrings",
+      amount:"1"
+    },
+    {
+      image:image12,
+      name:"FLOWER HEART EARRING",
+      price:"100",
+      category:"earrings",
+      amount:"1"
+    },
+    {
+      image:image13,
+      name:"GLOW IN THE DARK PENDANT",
+      price:"150",
+      category:"necklaces",
       amount:"1"
     }
   ])
