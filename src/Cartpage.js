@@ -71,6 +71,7 @@ const Cartpage = () => {
                     <p>Disclaimer:</p>
                     <p>1. No refunds &amp; online payments accepted only.</p>
                     <p>2. We will contact you shortly on your whatsapp number for payment process.</p>
+                    <p>3. Extra Rs 50-100 delivery charges applicable on each order.</p>
                   </div>
                   <button type="submit" value="Send">Order</button>
                   
