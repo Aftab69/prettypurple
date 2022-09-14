@@ -33,7 +33,7 @@ const Cartpage = () => {
     emailjs.sendForm('service_9eg4swo', 'template_guc6s4m', form.current, 'VlmeDF_H35GNGqnMy')
       .then((result) => {
           console.log(result.text);
-          window.alert("Message sent successfully");
+          window.alert("Your Order was Successful");
       }, (error) => {
           console.log(error.text);
           window.alert("Error");
