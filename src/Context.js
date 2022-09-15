@@ -40,21 +40,21 @@ const Context = ({children}) => {
     },
     {
       image:image4,
-      name:"ALPHABET KEYRING",
+      name:"ALPHABET KEYRING (M)",
       price:"100",
       category:"keyrings",
       amount:"1"
     },
     {
       image:image5,
-      name:"GAMUSA EARRING",
+      name:"GAMUSA EARRING #01",
       price:"150",
       category:"gamusa jewellery",
       amount:"1"
     },
     {
       image:image6,
-      name:"GAMUSA EARRING",
+      name:"GAMUSA EARRING #02",
       price:"150",
       category:"gamusa jewellery",
       amount:"1"
@@ -68,21 +68,21 @@ const Context = ({children}) => {
     },
     {
       image:image8,
-      name:"GAMUSA EARRING",
+      name:"GAMUSA EARRING #03",
       price:"150",
       category:"gamusa jewellery",
       amount:"1"
     },
     {
       image:image9,
-      name:"GAMUSA EARRING",
+      name:"GAMUSA EARRING #04",
       price:"150",
       category:"gamusa jewellery",
       amount:"1"
     },
     {
       image:image10,
-      name:"GAMUSA EARRING",
+      name:"GAMUSA EARRING #05",
       price:"150",
       category:"gamusa jewellery",
       amount:"1"
