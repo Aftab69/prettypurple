@@ -44,8 +44,11 @@ const Cartpage = () => {
 
   return (
     <>
-      <div className='cartTotalDisplayContainer'>
+      <div className='cartTotalDisplayContainer'>{
+        cart.length > 0 ?
+        <p>YOUR CART TOTAL : Rs {total+60}</p> :
         <p>YOUR CART TOTAL : Rs {total}</p>
+      }
       </div>
       <div className='cartpageContainer'>
       {
@@ -66,15 +69,13 @@ const Cartpage = () => {
                   <input type="email" name="user_email" placeholder='Enter a valid email address' required />
                   <textarea type="text" name="message" placeholder='Enter your whatsapp number' id='whatsapptextarea' required />
                   <textarea type="number" name="message" placeholder='Enter your address' required />
-                  <textarea style={{display:"none"}} type="text" name="message" value={`Amount to pay- Rs ${total}; Items${productnames}`} placeholder='Enter your address' required />
+                  <textarea style={{display:"none"}} type="text" name="message" value={`Amount to pay- Rs ${total+60}; Items${productnames}`} placeholder='Enter your address' required />
                   <div className='disclaimerContainer'>
                     <p>Disclaimer:</p>
                     <p>1. No refunds &amp; online payments accepted only.</p>
                     <p>2. We will contact you shortly on your whatsapp number for payment process.</p>
-                    <p>3. Extra Rs 50-100 delivery charges applicable on each order.</p>
                   </div>
-                  <button type="submit" value="Send">Order</button>
-                  
+                  <button type="submit" value="Send">Order</button>           
                </form>
                </div>
            </div>
