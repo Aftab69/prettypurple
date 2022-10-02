@@ -12,6 +12,12 @@ import image10 from "./Images/10.jpg"
 import image11 from "./Images/11.jpg"
 import image12 from "./Images/12.jpg"
 import image13 from "./Images/13.jpg"
+import image14 from "./Images/14.jpg"
+import image15 from "./Images/15.jpg"
+import image16 from "./Images/16.jpg"
+import image17 from "./Images/17.jpg"
+import image18 from "./Images/18.jpg"
+import image19 from "./Images/19.jpg"
 
 export const CartContext = createContext();
 
@@ -106,6 +112,48 @@ const Context = ({children}) => {
       name:"GLOW IN THE DARK PENDANT",
       price:"150",
       category:"necklaces",
+      amount:"1"
+    },
+    {
+      image:image14,
+      name:"SIMLY CHARM EARRINGS",
+      price:"120",
+      category:"earrings",
+      amount:"1"
+    },
+    {
+      image:image15,
+      name:"SILVER FAN EARRINGS",
+      price:"120",
+      category:"earrings",
+      amount:"1"
+    },
+    {
+      image:image16,
+      name:"CHAIN BEADS EARRINGS",
+      price:"120",
+      category:"earrings",
+      amount:"1"
+    },
+    {
+      image:image17,
+      name:"GLOW IN THE DARK KEYCHAIN (T)",
+      price:"150",
+      category:"keyrings",
+      amount:"1"
+    },
+    {
+      image:image18,
+      name:"HEART CHARM EARRINGS",
+      price:"120",
+      category:"earrings",
+      amount:"1"
+    },
+    {
+      image:image19,
+      name:"WHITE PEARL ON CHAIN",
+      price:"100",
+      category:"earrings",
       amount:"1"
     }
   ])
