@@ -18,6 +18,8 @@ import image16 from "./Images/16.jpg"
 import image17 from "./Images/17.jpg"
 import image18 from "./Images/18.jpg"
 import image19 from "./Images/19.jpg"
+import image20 from "./Images/20.jpg"
+import image21 from "./Images/21.jpg"
 
 export const CartContext = createContext();
 
@@ -153,6 +155,20 @@ const Context = ({children}) => {
       image:image19,
       name:"WHITE PEARL ON CHAIN",
       price:"100",
+      category:"earrings",
+      amount:"1"
+    },
+    {
+      image:image20,
+      name:"LETTER KEYCHAIN (A)",
+      price:"130",
+      category:"keyrings",
+      amount:"1"
+    },
+    {
+      image:image21,
+      name:"CUTE CLOUD EARRINGS",
+      price:"120",
       category:"earrings",
       amount:"1"
     }
