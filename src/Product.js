@@ -1,6 +1,7 @@
 import React, { useContext } from 'react'
 import "./Product.css"
 import { CartContext } from "./Context.js"
+import { Zoom } from 'react-reveal'
 
 const Product = (props) => {
   
@@ -42,31 +43,34 @@ const Product = (props) => {
   }
   return (
     <>
-      <div className='productContainer'>
-        <div className='productImage'>
-            <img src={props.productImage} alt={props.productImage} />
+      <Zoom>
+        <div className='productContainer'>
+          <div className='productImage'>
+              <img src={props.productImage} alt={props.productImage} />
+          </div>
+          
+          <div className='productName'>
+              <p>{props.productName}</p>
+          </div>
+          <div className='productPricing'>
+              <p>₹ {props.productPrice}</p>
+          </div>
+          <div className='productButton'>
+            { cart.includes(props.data) ?
+            <button id={props.productName} onClick={handleRemoveFromCart}>Remove from cart</button> :
+            <button id={props.productName} onClick={handleAddToCart}>Add to cart</button>
+            }
+            { window.location.pathname === "/cart" ? 
+            <div className='quantityContainer'>
+              <button onClick={handleDecrease}>-</button>
+              <span>{props.data.amount}</span>
+              <button onClick={handleIncrease}>+</button>
+            </div> : 
+            <div></div>
+            }
+          </div>
         </div>
-        <div className='productName'>
-            <p>{props.productName}</p>
-        </div>
-        <div className='productPricing'>
-            <p>₹ {props.productPrice}</p>
-        </div>
-        <div className='productButton'>
-          { cart.includes(props.data) ?
-          <button id={props.productName} onClick={handleRemoveFromCart}>Remove from cart</button> :
-          <button id={props.productName} onClick={handleAddToCart}>Add to cart</button>
-          }
-          { window.location.pathname === "/cart" ? 
-          <div className='quantityContainer'>
-            <button onClick={handleDecrease}>-</button>
-            <span>{props.data.amount}</span>
-            <button onClick={handleIncrease}>+</button>
-          </div> : 
-          <div></div>
-          }
-        </div>
-      </div>
+      </Zoom>
     </>
   )
 }
