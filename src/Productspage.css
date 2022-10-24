@@ -12,7 +12,8 @@
     flex-wrap: wrap;
 }
 .filteroptionContainer{
-    background: #f1c40f;
+    /* background: #f1c40f; */
+    background: rgb(238, 238, 238);
     width: 100%;
     min-height: 5vh;
     display: flex;
