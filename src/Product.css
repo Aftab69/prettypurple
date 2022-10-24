@@ -28,13 +28,13 @@
     border:none;
     border-radius: 2.5px;
     padding: 5px;
-    /* background: #91189c; */
-    background: white;
+    background: #be6bc5;
     color: black;
+    font-weight: 600;
 }
 .productButton>button:hover{
     cursor: pointer;
-    background: #bd3ec9;
+    background: #ca8ccf;
 }
 .quantityContainer{
     display: flex;
