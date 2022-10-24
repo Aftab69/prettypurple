@@ -1,7 +1,6 @@
 import React, { useContext } from 'react'
 import "./Product.css"
 import { CartContext } from "./Context.js"
-import { Zoom } from 'react-reveal'
 
 const Product = (props) => {
   
@@ -43,7 +42,6 @@ const Product = (props) => {
   }
   return (
     <>
-      <Zoom>
         <div className='productContainer'>
           <div className='productImage'>
               <img src={props.productImage} alt={props.productImage} />
@@ -70,7 +68,6 @@ const Product = (props) => {
             }
           </div>
         </div>
-      </Zoom>
     </>
   )
 }

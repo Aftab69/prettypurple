@@ -28,147 +28,147 @@ const Context = ({children}) => {
     {
       image:image1,
       name:"BLACK RESIN EARRING",
-      price:"150",
+      price:"149",
       category:"earrings",
       amount:"1"
     },
     {
       image:image2,
       name:"HOWL'S MOVING CASTLE EARRING",
-      price:"100",
+      price:"99",
       category:"earrings",
       amount:"1"
     },
     {
       image:image3,
       name:"SEQUENCE FABRIC EARRING",
-      price:"100",
-      category:"earrings",
+      price:"99",
+      category:"fabric jewellery",
       amount:"1"
     },
     {
       image:image4,
       name:"ALPHABET KEYRING (M)",
-      price:"100",
+      price:"99",
       category:"keyrings",
       amount:"1"
     },
     {
       image:image5,
       name:"GAMUSA EARRING #01",
-      price:"150",
-      category:"gamusa jewellery",
+      price:"149",
+      category:"fabric jewellery",
       amount:"1"
     },
     {
       image:image6,
       name:"GAMUSA EARRING #02",
-      price:"150",
-      category:"gamusa jewellery",
+      price:"149",
+      category:"fabric jewellery",
       amount:"1"
     },
     {
       image:image7,
       name:"GAMUSA JEWELLERY SET",
-      price:"200",
-      category:"gamusa jewellery",
+      price:"199",
+      category:"fabric jewellery",
       amount:"1"
     },
     {
       image:image8,
       name:"GAMUSA EARRING #03",
-      price:"150",
-      category:"gamusa jewellery",
+      price:"149",
+      category:"fabric jewellery",
       amount:"1"
     },
     {
       image:image9,
       name:"GAMUSA EARRING #04",
-      price:"150",
-      category:"gamusa jewellery",
+      price:"149",
+      category:"fabric jewellery",
       amount:"1"
     },
     {
       image:image10,
       name:"GAMUSA EARRING #05",
-      price:"150",
-      category:"gamusa jewellery",
+      price:"149",
+      category:"fabric jewellery",
       amount:"1"
     },
     {
       image:image11,
       name:"FLAT PEARL EARRING",
-      price:"100",
+      price:"99",
       category:"earrings",
       amount:"1"
     },
     {
       image:image12,
       name:"FLOWER HEART EARRING",
-      price:"100",
+      price:"99",
       category:"earrings",
       amount:"1"
     },
     {
       image:image13,
       name:"GLOW IN THE DARK PENDANT",
-      price:"150",
+      price:"149",
       category:"necklaces",
       amount:"1"
     },
     {
       image:image14,
       name:"SIMLY CHARM EARRINGS",
-      price:"120",
+      price:"119",
       category:"earrings",
       amount:"1"
     },
     {
       image:image15,
       name:"SILVER FAN EARRINGS",
-      price:"120",
+      price:"119",
       category:"earrings",
       amount:"1"
     },
     {
       image:image16,
       name:"CHAIN BEADS EARRINGS",
-      price:"120",
+      price:"119",
       category:"earrings",
       amount:"1"
     },
     {
       image:image17,
       name:"GLOW IN THE DARK KEYCHAIN (T)",
-      price:"150",
+      price:"149",
       category:"keyrings",
       amount:"1"
     },
     {
       image:image18,
       name:"HEART CHARM EARRINGS",
-      price:"120",
+      price:"119",
       category:"earrings",
       amount:"1"
     },
     {
       image:image19,
       name:"WHITE PEARL ON CHAIN",
-      price:"100",
+      price:"99",
       category:"earrings",
       amount:"1"
     },
     {
       image:image20,
       name:"LETTER KEYCHAIN (A)",
-      price:"130",
+      price:"129",
       category:"keyrings",
       amount:"1"
     },
     {
       image:image21,
       name:"CUTE CLOUD EARRINGS",
-      price:"120",
+      price:"119",
       category:"earrings",
       amount:"1"
     }
