@@ -3,6 +3,7 @@ import "./Cartpage.css"
 import { CartContext } from "./Context.js"
 import Product from './Product'
 import emailjs from "@emailjs/browser";
+import { Helmet } from 'react-helmet';
 
 const Cartpage = () => {
   let { cart, total, setTotal, checkoutform, setCheckoutform } = useContext(CartContext)
@@ -44,6 +45,11 @@ const Cartpage = () => {
 
   return (
     <>
+      <Helmet>
+        <title>Pretty Purple Store | Cart</title>
+        <meta name="description" content="Pretty Purple is an e-commerce website where you can purchase earrings, necklaces, keyrings and other sorts of jewellery." />
+        <meta name="keywords" content="pretty purple, pretty purple store, jewellery shop, online store, earrings, neklaces, keyrings" />
+      </Helmet>
       <div className='cartTotalDisplayContainer'>{
         cart.length > 0 ?
         <p>YOUR CART TOTAL : Rs {total+60}</p> :

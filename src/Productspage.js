@@ -6,6 +6,7 @@ import instagramicon from "./Images/instagramicon.png"
 import whatsappicon from "./Images/whatsappicon.png"
 
 import { CartContext } from "./Context.js"
+import { Helmet } from 'react-helmet'
 
 const Productspage = () => {
   let { products, filter, setFilter } = useContext(CartContext)
@@ -24,6 +25,11 @@ const Productspage = () => {
 
   return (
     <>
+      <Helmet>
+        <title>Pretty Purple Store</title>
+        <meta name="description" content="Pretty Purple is an e-commerce website where you can purchase earrings, necklaces, keyrings and other sorts of jewellery." />
+        <meta name="keywords" content="pretty purple, pretty purple store, jewellery shop, online store, earrings, neklaces, keyrings" />
+      </Helmet>
       <div className='filteroptionContainer'>
         <button onClick={handleallproducts}>ALL PRODUCTS</button>
         <button name="earrings" onClick={handlefilter}>EARRINGS</button>
