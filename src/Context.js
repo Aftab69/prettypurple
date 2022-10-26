@@ -20,6 +20,32 @@ import image18 from "./Images/18.jpg"
 import image19 from "./Images/19.jpg"
 import image20 from "./Images/20.jpg"
 import image21 from "./Images/21.jpg"
+import image22 from "./Images/22.jpg"
+import image23 from "./Images/23.jpg"
+import image24 from "./Images/24.jpg"
+import image25 from "./Images/25.jpg"
+import image26 from "./Images/26.jpg"
+import image27 from "./Images/27.jpg"
+import image28 from "./Images/28.jpg"
+import image29 from "./Images/29.jpg"
+import image30 from "./Images/30.jpg"
+import image31 from "./Images/31.jpg"
+import image32 from "./Images/32.jpg"
+import image33 from "./Images/33.jpg"
+import image34 from "./Images/34.jpg"
+import image35 from "./Images/35.jpg"
+import image36 from "./Images/36.jpg"
+import image37 from "./Images/37.jpg"
+import image38 from "./Images/38.jpg"
+import image39 from "./Images/39.jpg"
+import image40 from "./Images/40.jpg"
+import image41 from "./Images/41.jpg"
+import image42 from "./Images/42.jpg"
+import image43 from "./Images/43.jpg"
+import image44 from "./Images/44.jpg"
+import image45 from "./Images/45.jpg"
+import image46 from "./Images/46.jpg"
+import image47 from "./Images/47.jpg"
 
 export const CartContext = createContext();
 
@@ -169,6 +195,188 @@ const Context = ({children}) => {
       image:image21,
       name:"CUTE CLOUD EARRINGS",
       price:"119",
+      category:"earrings",
+      amount:"1"
+    },
+    {
+      image:image22,
+      name:"WHITE PEARL FLOWER",
+      price:"49",
+      category:"earrings",
+      amount:"1"
+    },
+    {
+      image:image23,
+      name:"BLACK PEARL FLOWER",
+      price:"49",
+      category:"earrings",
+      amount:"1"
+    },
+    {
+      image:image24,
+      name:"GOLDEN KORI HOOPS",
+      price:"79",
+      category:"earrings",
+      amount:"1"
+    },
+    {
+      image:image25,
+      name:"KORI HANGERS",
+      price:"49",
+      category:"earrings",
+      amount:"1"
+    },
+    {
+      image:image26,
+      name:"RECTANGULAR FABRIC EARRING (PINK)",
+      price:"129",
+      category:"fabric jewellery",
+      amount:"1"
+    },
+    {
+      image:image27,
+      name:"FABRIC ON HOOPS",
+      price:"59",
+      category:"fabric jewellery",
+      amount:"1"
+    },
+    {
+      image:image28,
+      name:"YELLOW FABRIC STUD",
+      price:"69",
+      category:"fabric jewellery",
+      amount:"1"
+    },
+    {
+      image:image29,
+      name:"CLAY TRIPLE FLOWER (RED)",
+      price:"159",
+      category:"earrings",
+      amount:"1"
+    },
+    {
+      image:image30,
+      name:"CLAY YELLOW SUNFLOWER",
+      price:"59",
+      category:"earrings",
+      amount:"1"
+    },
+    {
+      image:image31,
+      name:"CLAY TRIPLE LAYER FLOWER (BLACK AND PINK)",
+      price:"159",
+      category:"earrings",
+      amount:"1"
+    },
+    {
+      image:image32,
+      name:"CLAY TRIPLE LAYER FLOWER (BLACK AND GOLDEN)",
+      price:"159",
+      category:"earrings",
+      amount:"1"
+    },
+    {
+      image:image33,
+      name:"BLUE FABRIC EARRING",
+      price:"59",
+      category:"fabric jewellery",
+      amount:"1"
+    },
+    {
+      image:image34,
+      name:"PEACH HOOPS",
+      price:"59",
+      category:"earrings",
+      amount:"1"
+    },
+    {
+      image:image35,
+      name:"PEACH HOOPS (BIG)",
+      price:"69",
+      category:"earrings",
+      amount:"1"
+    },
+    {
+      image:image36,
+      name:"RING UNCUT PEARL",
+      price:"59",
+      category:"earrings",
+      amount:"1"
+    },
+    {
+      image:image37,
+      name:"SILVER PEARL BUTTERFLY",
+      price:"59",
+      category:"earrings",
+      amount:"1"
+    },
+    {
+      image:image38,
+      name:"PINK STAR",
+      price:"49",
+      category:"earrings",
+      amount:"1"
+    },
+    {
+      image:image39,
+      name:"UNCUT BLUE GLASS EARRING",
+      price:"49",
+      category:"earrings",
+      amount:"1"
+    },
+    {
+      image:image40,
+      name:"TRANSPARENT BEADS HOOPS",
+      price:"49",
+      category:"earrings",
+      amount:"1"
+    },
+    {
+      image:image41,
+      name:"RED FABRIC V CUT EARRING",
+      price:"59",
+      category:"fabric jewellery",
+      amount:"1"
+    },
+    {
+      image:image42,
+      name:"GOLD FABRIC WITH BEADS",
+      price:"59",
+      category:"fabric jewellery",
+      amount:"1"
+    },
+    {
+      image:image43,
+      name:"WHITE EMBROIDERY EARRING",
+      price:"55",
+      category:"fabric jewellery",
+      amount:"1"
+    },
+    {
+      image:image44,
+      name:"PRINTED BLUE AND WHITE EARRING",
+      price:"69",
+      category:"fabric jewellery",
+      amount:"1"
+    },
+    {
+      image:image45,
+      name:"BLUE AND WHITE FABRIC STUD",
+      price:"49",
+      category:"earrings",
+      amount:"1"
+    },
+    {
+      image:image46,
+      name:"FABRIC EARRING #01",
+      price:"49",
+      category:"fabric jewellery",
+      amount:"1"
+    },
+    {
+      image:image47,
+      name:"GOLDEN KORI BRACELET",
+      price:"59",
       category:"earrings",
       amount:"1"
     }

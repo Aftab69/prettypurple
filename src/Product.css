@@ -17,14 +17,23 @@
 .productImage>img{
     max-width: 300px;
 }
+.productName{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .productName>p{
     text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
 }
-.productDescription{
-    margin: 0 10px;
+.productPricing{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .productButton>button{
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     border:none;
     border-radius: 2.5px;
     padding: 5px;
