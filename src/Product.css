@@ -74,6 +74,10 @@
     .productContainer{
         max-width: 450px;
         min-height: 600px;
+        margin: 45px;
+    }
+    .productName{
+        height: 90px;
     }
     .productImage>img{
         max-width: 450px;
@@ -93,6 +97,10 @@
     .productContainer{
         max-width: 600px;
         min-height: 800px;
+        margin: 60px;
+    }
+    .productName{
+        height: 120px;
     }
     .productImage>img{
         max-width: 600px;
