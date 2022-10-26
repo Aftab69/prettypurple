@@ -152,7 +152,7 @@ const Context = ({children}) => {
     {
       image:image15,
       name:"SILVER FAN EARRINGS",
-      price:"119",
+      price:"59",
       category:"earrings",
       amount:"1"
     },
@@ -180,7 +180,7 @@ const Context = ({children}) => {
     {
       image:image19,
       name:"WHITE PEARL ON CHAIN",
-      price:"99",
+      price:"49",
       category:"earrings",
       amount:"1"
     },
@@ -285,14 +285,14 @@ const Context = ({children}) => {
     {
       image:image34,
       name:"PEACH HOOPS",
-      price:"59",
+      price:"49",
       category:"earrings",
       amount:"1"
     },
     {
       image:image35,
       name:"PEACH HOOPS (BIG)",
-      price:"69",
+      price:"59",
       category:"earrings",
       amount:"1"
     },
@@ -306,7 +306,7 @@ const Context = ({children}) => {
     {
       image:image37,
       name:"SILVER PEARL BUTTERFLY",
-      price:"59",
+      price:"69",
       category:"earrings",
       amount:"1"
     },
@@ -340,36 +340,36 @@ const Context = ({children}) => {
     },
     {
       image:image42,
-      name:"GOLD FABRIC WITH BEADS",
-      price:"59",
+      name:"GOLD FABRIC WITH BEADS HANGING",
+      price:"89",
       category:"fabric jewellery",
       amount:"1"
     },
     {
       image:image43,
       name:"WHITE EMBROIDERY EARRING",
-      price:"55",
+      price:"69",
       category:"fabric jewellery",
       amount:"1"
     },
     {
       image:image44,
       name:"PRINTED BLUE AND WHITE EARRING",
-      price:"69",
+      price:"129",
       category:"fabric jewellery",
       amount:"1"
     },
     {
       image:image45,
       name:"BLUE AND WHITE FABRIC STUD",
-      price:"49",
+      price:"79",
       category:"earrings",
       amount:"1"
     },
     {
       image:image46,
       name:"FABRIC EARRING #01",
-      price:"49",
+      price:"119",
       category:"fabric jewellery",
       amount:"1"
     },
@@ -377,7 +377,7 @@ const Context = ({children}) => {
       image:image47,
       name:"GOLDEN KORI BRACELET",
       price:"59",
-      category:"earrings",
+      category:"accessories",
       amount:"1"
     }
   ])
