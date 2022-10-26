@@ -363,7 +363,7 @@ const Context = ({children}) => {
       image:image45,
       name:"BLUE AND WHITE FABRIC STUD",
       price:"79",
-      category:"earrings",
+      category:"fabric jewellery",
       amount:"1"
     },
     {
