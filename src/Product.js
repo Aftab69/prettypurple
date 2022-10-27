@@ -54,7 +54,9 @@ const Product = (props) => {
               <p>₹ {props.productPrice}</p>
           </div>
           <div className='productButton'>
-            { cart.includes(props.data) ?
+            { 
+            props.data.available!=="yes" ? <button>Out of Stock</button> :
+            cart.includes(props.data) ?
             <button id={props.productName} onClick={handleRemoveFromCart}>Remove from Cart</button> :
             <button id={props.productName} onClick={handleAddToCart}>Add to Cart</button>
             }

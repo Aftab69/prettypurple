@@ -56,329 +56,376 @@ const Context = ({children}) => {
       name:"BLACK RESIN EARRING",
       price:"149",
       category:"earrings",
-      amount:"1"
+      amount:"1",
+      available:"yes"
     },
     {
       image:image2,
       name:"HOWL'S MOVING CASTLE EARRING",
       price:"99",
       category:"earrings",
-      amount:"1"
+      amount:"1",
+      available:"yes"
     },
     {
       image:image3,
       name:"SEQUENCE FABRIC EARRING",
       price:"99",
       category:"fabric jewellery",
-      amount:"1"
+      amount:"1",
+      available:"yes"
     },
     {
       image:image4,
       name:"ALPHABET KEYRING (M)",
       price:"99",
       category:"keyrings",
-      amount:"1"
+      amount:"1",
+      available:"yes"
     },
     {
       image:image5,
       name:"GAMUSA EARRING #01",
       price:"149",
       category:"fabric jewellery",
-      amount:"1"
+      amount:"1",
+      available:"yes"
     },
     {
       image:image6,
       name:"GAMUSA EARRING #02",
       price:"149",
       category:"fabric jewellery",
-      amount:"1"
+      amount:"1",
+      available:"no"
     },
     {
       image:image7,
       name:"GAMUSA JEWELLERY SET",
       price:"199",
       category:"fabric jewellery",
-      amount:"1"
+      amount:"1",
+      available:"no"
     },
     {
       image:image8,
       name:"GAMUSA EARRING #03",
       price:"149",
       category:"fabric jewellery",
-      amount:"1"
+      amount:"1",
+      available:"yes"
     },
     {
       image:image9,
       name:"GAMUSA EARRING #04",
       price:"149",
       category:"fabric jewellery",
-      amount:"1"
+      amount:"1",
+      available:"no"
     },
     {
       image:image10,
       name:"GAMUSA EARRING #05",
       price:"149",
       category:"fabric jewellery",
-      amount:"1"
+      amount:"1",
+      available:"no"
     },
     {
       image:image11,
       name:"FLAT PEARL EARRING",
       price:"99",
       category:"earrings",
-      amount:"1"
+      amount:"1",
+      available:"yes"
     },
     {
       image:image12,
       name:"FLOWER HEART EARRING",
       price:"99",
       category:"earrings",
-      amount:"1"
+      amount:"1",
+      available:"yes"
     },
     {
       image:image13,
       name:"GLOW IN THE DARK PENDANT",
       price:"149",
       category:"necklaces",
-      amount:"1"
+      amount:"1",
+      available:"yes"
     },
     {
       image:image14,
       name:"SIMLY CHARM EARRINGS",
       price:"119",
       category:"earrings",
-      amount:"1"
+      amount:"1",
+      available:"yes"
     },
     {
       image:image15,
       name:"SILVER FAN EARRINGS",
       price:"59",
       category:"earrings",
-      amount:"1"
+      amount:"1",
+      available:"yes"
     },
     {
       image:image16,
       name:"CHAIN BEADS EARRINGS",
       price:"119",
       category:"earrings",
-      amount:"1"
+      amount:"1",
+      available:"yes"
     },
     {
       image:image17,
       name:"GLOW IN THE DARK KEYCHAIN (T)",
       price:"149",
       category:"keyrings",
-      amount:"1"
+      amount:"1",
+      available:"yes"
     },
     {
       image:image18,
       name:"HEART CHARM EARRINGS",
       price:"119",
       category:"earrings",
-      amount:"1"
+      amount:"1",
+      available:"yes"
     },
     {
       image:image19,
       name:"WHITE PEARL ON CHAIN",
       price:"49",
       category:"earrings",
-      amount:"1"
+      amount:"1",
+      available:"yes"
     },
     {
       image:image20,
       name:"LETTER KEYCHAIN (A)",
       price:"129",
       category:"keyrings",
-      amount:"1"
+      amount:"1",
+      available:"yes"
     },
     {
       image:image21,
       name:"CUTE CLOUD EARRINGS",
       price:"119",
       category:"earrings",
-      amount:"1"
+      amount:"1",
+      available:"yes"
     },
     {
       image:image22,
       name:"WHITE PEARL FLOWER",
       price:"49",
       category:"earrings",
-      amount:"1"
+      amount:"1",
+      available:"yes"
     },
     {
       image:image23,
       name:"BLACK PEARL FLOWER",
       price:"49",
       category:"earrings",
-      amount:"1"
+      amount:"1",
+      available:"yes"
     },
     {
       image:image24,
       name:"GOLDEN KORI HOOPS",
       price:"79",
       category:"earrings",
-      amount:"1"
+      amount:"1",
+      available:"yes"
     },
     {
       image:image25,
       name:"KORI HANGERS",
       price:"49",
       category:"earrings",
-      amount:"1"
+      amount:"1",
+      available:"yes"
     },
     {
       image:image26,
       name:"RECTANGULAR FABRIC EARRING (PINK)",
       price:"129",
       category:"fabric jewellery",
-      amount:"1"
+      amount:"1",
+      available:"no"
     },
     {
       image:image27,
       name:"FABRIC ON HOOPS",
       price:"59",
       category:"fabric jewellery",
-      amount:"1"
+      amount:"1",
+      available:"yes"
     },
     {
       image:image28,
       name:"YELLOW FABRIC STUD",
       price:"99",
       category:"fabric jewellery",
-      amount:"1"
+      amount:"1",
+      available:"yes"
     },
     {
       image:image29,
       name:"CLAY TRIPLE FLOWER (RED)",
       price:"159",
       category:"earrings",
-      amount:"1"
+      amount:"1",
+      available:"yes"
     },
     {
       image:image30,
       name:"CLAY YELLOW SUNFLOWER",
       price:"59",
       category:"earrings",
-      amount:"1"
+      amount:"1",
+      available:"yes"
     },
     {
       image:image31,
       name:"CLAY TRIPLE LAYER FLOWER (BLACK AND PINK)",
       price:"159",
       category:"earrings",
-      amount:"1"
+      amount:"1",
+      available:"yes"
     },
     {
       image:image32,
       name:"CLAY TRIPLE LAYER FLOWER (BLACK AND GOLDEN)",
       price:"159",
       category:"earrings",
-      amount:"1"
+      amount:"1",
+      available:"yes"
     },
     {
       image:image33,
       name:"BLUE FABRIC EARRING",
       price:"59",
       category:"fabric jewellery",
-      amount:"1"
+      amount:"1",
+      available:"yes"
     },
     {
       image:image34,
       name:"PEACH HOOPS",
       price:"49",
       category:"earrings",
-      amount:"1"
+      amount:"1",
+      available:"yes"
     },
     {
       image:image35,
       name:"PEACH HOOPS (BIG)",
       price:"59",
       category:"earrings",
-      amount:"1"
+      amount:"1",
+      available:"yes"
     },
     {
       image:image36,
       name:"RING UNCUT PEARL",
       price:"59",
       category:"earrings",
-      amount:"1"
+      amount:"1",
+      available:"yes"
     },
     {
       image:image37,
       name:"SILVER PEARL BUTTERFLY",
       price:"69",
       category:"earrings",
-      amount:"1"
+      amount:"1",
+      available:"yes"
     },
     {
       image:image38,
       name:"PINK STAR",
       price:"49",
       category:"earrings",
-      amount:"1"
+      amount:"1",
+      available:"yes"
     },
     {
       image:image39,
       name:"UNCUT BLUE GLASS EARRING",
       price:"49",
       category:"earrings",
-      amount:"1"
+      amount:"1",
+      available:"yes"
     },
     {
       image:image40,
       name:"TRANSPARENT BEADS HOOPS",
       price:"49",
       category:"earrings",
-      amount:"1"
+      amount:"1",
+      available:"yes"
     },
     {
       image:image41,
       name:"RED FABRIC V CUT EARRING",
       price:"59",
       category:"fabric jewellery",
-      amount:"1"
+      amount:"1",
+      available:"yes"
     },
     {
       image:image42,
       name:"GOLD FABRIC WITH BEADS HANGING",
       price:"89",
       category:"fabric jewellery",
-      amount:"1"
+      amount:"1",
+      available:"yes"
     },
     {
       image:image43,
       name:"WHITE EMBROIDERY EARRING",
       price:"69",
       category:"fabric jewellery",
-      amount:"1"
+      amount:"1",
+      available:"yes"
     },
     {
       image:image44,
       name:"PRINTED BLUE AND WHITE EARRING",
       price:"129",
       category:"fabric jewellery",
-      amount:"1"
+      amount:"1",
+      available:"yes"
     },
     {
       image:image45,
       name:"BLUE AND WHITE FABRIC STUD",
       price:"79",
       category:"fabric jewellery",
-      amount:"1"
+      amount:"1",
+      available:"yes"
     },
     {
       image:image46,
       name:"FABRIC EARRING #01",
       price:"119",
       category:"fabric jewellery",
-      amount:"1"
+      amount:"1",
+      available:"yes"
     },
     {
       image:image47,
       name:"GOLDEN KORI BRACELET",
       price:"59",
       category:"accessories",
-      amount:"1"
+      amount:"1",
+      available:"yes"
     }
   ])
     let [ itemnumber, setItemnumber ] = useState(0);
