@@ -15,7 +15,7 @@
     /* background: #f1c40f; */
     background: rgb(206, 206, 206);
     width: 100%;
-    min-height: 5vh;
+    min-height: 7.5vh;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -32,6 +32,27 @@
     font-family: 'Josefin Sans', sans-serif;
 }
 .filteroptionContainer>button:hover{
+    cursor: pointer;
+    background: #8a2da1;
+}
+.paginationContainer{
+    background: rgb(206, 206, 206);
+    width: 100%;
+    height: 7.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.paginationContainer>button{
+    margin:10px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    background: #630e79;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.paginationContainer>button:hover{
     cursor: pointer;
     background: #8a2da1;
 }
@@ -76,6 +97,10 @@
         width: 72px;
         height: 72px;
     }
+    .paginationContainer>button{
+        margin: 15px;
+        padding: 15px;
+    }
 }
 @media only screen and (min-width: 2881px){
     .filteroptionContainer>button{
@@ -85,5 +110,9 @@
     .footerFirstContainer>a>img{
         width: 96px;
         height: 96px;
+    }
+    .paginationContainer>button{
+        margin: 20px;
+        padding: 20px;
     }
 }

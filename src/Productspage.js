@@ -1,18 +1,24 @@
 import React, { useContext } from 'react'
+import { useState } from 'react'
 import "./Productspage.css"
 import Product from './Product'
 import facebookicon from "./Images/facebookicon.png"
 import instagramicon from "./Images/instagramicon.png"
 import whatsappicon from "./Images/whatsappicon.png"
-
+import Zoom from 'react-reveal/Zoom';
 import { CartContext } from "./Context.js"
 import { Helmet } from 'react-helmet'
 
 const Productspage = () => {
+  const [ startnum, setStartnum ] = useState(-1)
+  const [ endnum, setEndnum ] = useState(10)
+
   let { products, filter, setFilter } = useContext(CartContext)
 
   const handlefilter = (e) =>{
     e.preventDefault();
+    setStartnum(-1)
+    setEndnum(10)
     setFilter(products.filter((product)=>(
       product.category === e.target.name
     )))
@@ -20,7 +26,32 @@ const Productspage = () => {
   }
   const handleallproducts = (e) =>{
     e.preventDefault();
+    setStartnum(-1)
+    setEndnum(10)
     setFilter(products)
+  }
+
+  const handleNextButton = (e) =>{
+    e.preventDefault()
+    if(endnum>=filter.length){
+      setStartnum(startnum)
+      setEndnum(endnum)
+    } else {
+      setStartnum(startnum+10)
+      setEndnum(endnum+10)
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  }
+  const handlePreviousButton = (e) =>{
+    e.preventDefault()
+    if(startnum === -1 && endnum === 10){
+      setStartnum(startnum)
+      setEndnum(endnum)
+    } else {
+      setStartnum(startnum-10)
+      setEndnum(endnum-10)
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
   }
 
   return (
@@ -40,10 +71,14 @@ const Productspage = () => {
       </div>
       <div className='productspageContainer'>
         {
-          filter.map((product)=>(
-            <Product key={product.image} data={product} productImage={product.image} productName={product.name} productDes={product.description} productPrice={product.price} />
+          filter.map((product, index)=>(
+            (index>startnum && index<endnum) && <Zoom><Product key={product.image} data={product} productImage={product.image} productName={product.name} productDes={product.description} productPrice={product.price} /></Zoom>
           ))
         }
+      </div>
+      <div className='paginationContainer'>
+        <button onClick={handlePreviousButton}>&larr; PREVIOUS PAGE</button>
+        <button onClick={handleNextButton}>NEXT PAGE &rarr;</button>
       </div>
       <div className='footerContainer'>
         <p>CONTACT US :</p>
