@@ -55,8 +55,8 @@ const Product = (props) => {
           </div>
           <div className='productButton'>
             { cart.includes(props.data) ?
-            <button id={props.productName} onClick={handleRemoveFromCart}>Remove from cart</button> :
-            <button id={props.productName} onClick={handleAddToCart}>Add to cart</button>
+            <button id={props.productName} onClick={handleRemoveFromCart}>Remove from Cart</button> :
+            <button id={props.productName} onClick={handleAddToCart}>Add to Cart</button>
             }
             { window.location.pathname === "/cart" ? 
             <div className='quantityContainer'>
