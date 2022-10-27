@@ -52,6 +52,7 @@
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
+    margin: 10px 0;
 }
 .quantityContainer>button{
     font-size: 1rem;
@@ -86,6 +87,9 @@
         margin-bottom: 20px;
         font-size: 1.25rem;
     }
+    .quantityContainer{
+        margin: 15px 0;
+    }
     .quantityContainer>button{
         font-size: 1.25rem;
         width: 45px;
@@ -109,6 +113,9 @@
         padding: 16px;
         margin-bottom: 25px;
         font-size: 1.5rem;
+    }
+    .quantityContainer{
+        margin: 20px 0;
     }
     .quantityContainer>button{
         font-size: 1.5rem;
