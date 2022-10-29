@@ -46,6 +46,39 @@ import image44 from "./Images/44.jpg"
 import image45 from "./Images/45.jpg"
 import image46 from "./Images/46.jpg"
 import image47 from "./Images/47.jpg"
+import image48 from "./Images/48.jpg"
+import image49 from "./Images/49.jpg"
+import image50 from "./Images/50.jpg"
+import image51 from "./Images/51.jpg"
+import image52 from "./Images/52.jpg"
+import image53 from "./Images/53.jpg"
+import image54 from "./Images/54.jpg"
+import image55 from "./Images/55.jpg"
+import image56 from "./Images/56.jpg"
+import image57 from "./Images/57.jpg"
+import image58 from "./Images/58.jpg"
+import image59 from "./Images/59.jpg"
+import image60 from "./Images/60.jpg"
+import image61 from "./Images/61.jpg"
+import image62 from "./Images/62.jpg"
+import image63 from "./Images/63.jpg"
+import image64 from "./Images/64.jpg"
+import image65 from "./Images/65.jpg"
+import image66 from "./Images/66.jpg"
+import image67 from "./Images/67.jpg"
+import image68 from "./Images/68.jpg"
+import image69 from "./Images/69.jpg"
+import image70 from "./Images/70.jpg"
+import image71 from "./Images/71.jpg"
+import image72 from "./Images/72.jpg"
+import image73 from "./Images/73.jpg"
+import image74 from "./Images/74.jpg"
+import image75 from "./Images/75.jpg"
+import image76 from "./Images/76.jpg"
+import image77 from "./Images/77.jpg"
+import image78 from "./Images/78.jpg"
+import image79 from "./Images/79.jpg"
+import image80 from "./Images/80.jpg"
 
 export const CartContext = createContext();
 
@@ -424,6 +457,270 @@ const Context = ({children}) => {
       name:"GOLDEN KORI BRACELET",
       price:"59",
       category:"accessories",
+      amount:"1",
+      available:"yes"
+    },
+    {
+      image:image48,
+      name:"FABRIC EARRING #02",
+      price:"129",
+      category:"fabric jewellery",
+      amount:"1",
+      available:"yes"
+    },
+    {
+      image:image49,
+      name:"FABRIC EARRING #03",
+      price:"99",
+      category:"fabric jewellery",
+      amount:"1",
+      available:"yes"
+    },
+    {
+      image:image50,
+      name:"FABRIC EARRING #04",
+      price:"129",
+      category:"fabric jewellery",
+      amount:"1",
+      available:"yes"
+    },
+    {
+      image:image51,
+      name:"FABRIC EARRING #05",
+      price:"149",
+      category:"fabric jewellery",
+      amount:"1",
+      available:"yes"
+    },
+    {
+      image:image52,
+      name:"GAMUSA EARRING #06",
+      price:"119",
+      category:"fabric jewellery",
+      amount:"1",
+      available:"yes"
+    },
+    {
+      image:image53,
+      name:"GAMUSA EARRING #07",
+      price:"159",
+      category:"fabric jewellery",
+      amount:"1",
+      available:"yes"
+    },
+    {
+      image:image54,
+      name:"GAMUSA EARRING #08",
+      price:"169",
+      category:"fabric jewellery",
+      amount:"1",
+      available:"no"
+    },
+    {
+      image:image55,
+      name:"GAMUSA EARRING #09",
+      price:"149",
+      category:"fabric jewellery",
+      amount:"1",
+      available:"no"
+    },
+    {
+      image:image56,
+      name:"GAMUSA EARRING #10",
+      price:"149",
+      category:"fabric jewellery",
+      amount:"1",
+      available:"yes"
+    },
+    {
+      image:image57,
+      name:"UNCUT PEARL EARRINGS",
+      price:"99",
+      category:"earrings",
+      amount:"1",
+      available:"yes"
+    },
+    {
+      image:image58,
+      name:"MOON AND STAR EARRINGS",
+      price:"149",
+      category:"earrings",
+      amount:"1",
+      available:"yes"
+    },
+    {
+      image:image59,
+      name:"WATERMELON EARRINGS",
+      price:"139",
+      category:"earrings",
+      amount:"1",
+      available:"yes"
+    },
+    {
+      image:image60,
+      name:"KORI SHELL EARRINGS (SILVER)",
+      price:"49",
+      category:"earrings",
+      amount:"1",
+      available:"yes"
+    },
+    {
+      image:image61,
+      name:"BUTTERFLY EARRINGS (PINK)",
+      price:"139",
+      category:"earrings",
+      amount:"1",
+      available:"yes"
+    },
+    {
+      image:image62,
+      name:"RED CHERRY EARRINGS",
+      price:"139",
+      category:"earrings",
+      amount:"1",
+      available:"yes"
+    },
+    {
+      image:image63,
+      name:"RESIN FLOWER IN HOOPS EARRINGS",
+      price:"129",
+      category:"earrings",
+      amount:"1",
+      available:"yes"
+    },
+    {
+      image:image64,
+      name:"PEARL HEART EARRINGS",
+      price:"59",
+      category:"earrings",
+      amount:"1",
+      available:"yes"
+    },
+    {
+      image:image65,
+      name:"GLASS BEADS EARRINGS (WHITE)",
+      price:"59",
+      category:"earrings",
+      amount:"1",
+      available:"yes"
+    },
+    {
+      image:image66,
+      name:"RESIN BLACK AND WHITE EARRINGS",
+      price:"149",
+      category:"earrings",
+      amount:"1",
+      available:"yes"
+    },
+    {
+      image:image67,
+      name:"WHITE DAISY EARRINGS",
+      price:"139",
+      category:"earrings",
+      amount:"1",
+      available:"yes"
+    },
+    {
+      image:image68,
+      name:"PENDANT #01",
+      price:"179",
+      category:"necklaces",
+      amount:"1",
+      available:"yes"
+    },
+    {
+      image:image69,
+      name:"PENDANT #02",
+      price:"179",
+      category:"necklaces",
+      amount:"1",
+      available:"yes"
+    },
+    {
+      image:image70,
+      name:"PENDANT #03",
+      price:"99",
+      category:"necklaces",
+      amount:"1",
+      available:"yes"
+    },
+    {
+      image:image71,
+      name:"PENDANT #04",
+      price:"99",
+      category:"necklaces",
+      amount:"1",
+      available:"yes"
+    },
+    {
+      image:image72,
+      name:"PENDANT #05",
+      price:"99",
+      category:"necklaces",
+      amount:"1",
+      available:"yes"
+    },
+    {
+      image:image73,
+      name:"PENDANT #06",
+      price:"108",
+      category:"necklaces",
+      amount:"1",
+      available:"yes"
+    },
+    {
+      image:image74,
+      name:"SILVER PENDANT #01",
+      price:"99",
+      category:"necklaces",
+      amount:"1",
+      available:"yes"
+    },
+    {
+      image:image75,
+      name:"SILVER PENDANT #02",
+      price:"99",
+      category:"necklaces",
+      amount:"1",
+      available:"yes"
+    },
+    {
+      image:image76,
+      name:"SILVER PENDANT #03",
+      price:"99",
+      category:"necklaces",
+      amount:"1",
+      available:"yes"
+    },
+    {
+      image:image77,
+      name:"SILVER PENDANT #04",
+      price:"99",
+      category:"necklaces",
+      amount:"1",
+      available:"yes"
+    },
+    {
+      image:image78,
+      name:"SILVER PENDANT #05",
+      price:"99",
+      category:"necklaces",
+      amount:"1",
+      available:"yes"
+    },
+    {
+      image:image79,
+      name:"SILVER PENDANT #06",
+      price:"99",
+      category:"necklaces",
+      amount:"1",
+      available:"yes"
+    },
+    {
+      image:image80,
+      name:"CLAY EARRING (FLOWER)",
+      price:"59",
+      category:"earrings",
       amount:"1",
       available:"yes"
     }
