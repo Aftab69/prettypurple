@@ -26,9 +26,11 @@ const Product = (props) => {
          item.name === props.data.name
        ))
        let reqInd = cart.indexOf(newObj[0])
-       cart[reqInd].amount = (Number(cart[reqInd].amount) + 1).toString()
-       setCart([...cart])
-       console.log(cart)
+       // eslint-disable-next-line
+       {((cart[reqInd].quantity > cart[reqInd].amount) ?
+       cart[reqInd].amount = (Number(cart[reqInd].amount) + 1).toString() :
+       cart[reqInd].amount = (Number(cart[reqInd].amount)).toString())
+       setCart([...cart])}
   }
   const handleDecrease = (e) =>{
     e.preventDefault();
@@ -38,7 +40,6 @@ const Product = (props) => {
     let reqInd = cart.indexOf(newObj[0])
     if(Number(cart[reqInd].amount>1)){cart[reqInd].amount = (Number(cart[reqInd].amount) - 1).toString()}
     setCart([...cart])
-    console.log(cart)
   }
   return (
     <>
