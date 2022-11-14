@@ -71,7 +71,6 @@ import image69 from "./Images/69.jpg"
 import image70 from "./Images/70.jpg"
 import image71 from "./Images/71.jpg"
 import image72 from "./Images/72.jpg"
-import image73 from "./Images/73.jpg"
 import image74 from "./Images/74.jpg"
 import image75 from "./Images/75.jpg"
 import image76 from "./Images/76.jpg"
@@ -727,15 +726,6 @@ const Context = ({children}) => {
       image:image72,
       name:"PENDANT #05",
       price:"99",
-      category:"necklaces",
-      amount:"1",
-      quantity:"99",
-      available:"yes"
-    },
-    {
-      image:image73,
-      name:"PENDANT #06",
-      price:"108",
       category:"necklaces",
       amount:"1",
       quantity:"99",
