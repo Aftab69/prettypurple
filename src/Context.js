@@ -71,6 +71,7 @@ import image69 from "./Images/69.jpg"
 import image70 from "./Images/70.jpg"
 import image71 from "./Images/71.jpg"
 import image72 from "./Images/72.jpg"
+import image73 from "./Images/73.jpg"
 import image74 from "./Images/74.jpg"
 import image75 from "./Images/75.jpg"
 import image76 from "./Images/76.jpg"
@@ -78,6 +79,31 @@ import image77 from "./Images/77.jpg"
 import image78 from "./Images/78.jpg"
 import image79 from "./Images/79.jpg"
 import image80 from "./Images/80.jpg"
+import image81 from "./Images/81.jpg"
+import image82 from "./Images/82.jpg"
+import image83 from "./Images/83.jpg"
+import image84 from "./Images/84.jpg"
+import image85 from "./Images/85.jpg"
+import image86 from "./Images/86.jpg"
+import image87 from "./Images/87.jpg"
+import image88 from "./Images/88.jpg"
+import image89 from "./Images/89.jpg"
+import image90 from "./Images/90.jpg"
+import image91 from "./Images/91.jpg"
+import image92 from "./Images/92.jpg"
+import image93 from "./Images/93.jpg"
+import image94 from "./Images/94.jpg"
+import image96 from "./Images/96.jpg"
+import image97 from "./Images/97.jpg"
+import image98 from "./Images/98.jpg"
+import image99 from "./Images/99.jpg"
+import image100 from "./Images/100.jpg"
+import image101 from "./Images/101.jpg"
+import image102 from "./Images/102.jpg"
+import image103 from "./Images/103.jpg"
+import image104 from "./Images/104.jpg"
+import image105 from "./Images/105.jpg"
+
 
 export const CartContext = createContext();
 
@@ -688,79 +714,88 @@ const Context = ({children}) => {
     },
     {
       image:image68,
-      name:"PENDANT #01",
-      price:"179",
-      category:"necklaces",
+      name:"CLAY EARRING (FLOWER)",
+      price:"59",
+      category:"earrings",
       amount:"1",
       quantity:"99",
       available:"yes"
     },
     {
       image:image69,
-      name:"PENDANT #02",
-      price:"179",
-      category:"necklaces",
+      name:"CHARM #01",
+      price:"139",
+      category:"phonecharms",
       amount:"1",
       quantity:"99",
       available:"yes"
     },
     {
       image:image70,
-      name:"PENDANT #03",
+      name:"CHARM #02",
       price:"99",
-      category:"necklaces",
+      category:"phonecharms",
       amount:"1",
       quantity:"99",
       available:"yes"
     },
     {
       image:image71,
-      name:"PENDANT #04",
-      price:"99",
-      category:"necklaces",
+      name:"CHARM #03",
+      price:"149",
+      category:"phonecharms",
       amount:"1",
       quantity:"99",
       available:"yes"
     },
     {
       image:image72,
-      name:"PENDANT #05",
+      name:"CHARM #04",
       price:"99",
-      category:"necklaces",
+      category:"phonecharms",
+      amount:"1",
+      quantity:"99",
+      available:"yes"
+    },
+    {
+      image:image73,
+      name:"HAIR CLIP #01",
+      price:"59",
+      category:"accessories",
       amount:"1",
       quantity:"99",
       available:"yes"
     },
     {
       image:image74,
-      name:"SILVER PENDANT #01",
-      price:"99",
-      category:"necklaces",
+      name:"HAIR CLIP #02",
+      price:"59",
+      category:"accessories",
       amount:"1",
       quantity:"99",
       available:"yes"
     },
     {
       image:image75,
-      name:"SILVER PENDANT #02",
-      price:"99",
-      category:"necklaces",
+      name:"HAIR CLIP #03",
+      price:"59",
+      category:"accessories",
       amount:"1",
       quantity:"99",
       available:"yes"
     },
     {
       image:image76,
-      name:"SILVER PENDANT #03",
-      price:"99",
-      category:"necklaces",
+      name:"HAIR CLIP #04",
+      price:"59",
+      category:"accessories",
       amount:"1",
       quantity:"99",
       available:"yes"
     },
     {
       image:image77,
-      name:"SILVER PENDANT #04",
+      name:"PENDANT #01",
       price:"99",
       category:"necklaces",
       amount:"1",
@@ -769,8 +804,8 @@ const Context = ({children}) => {
     },
     {
       image:image78,
-      name:"SILVER PENDANT #05",
-      price:"99",
+      name:"PENDANT #02",
+      price:"129",
       category:"necklaces",
       amount:"1",
       quantity:"99",
@@ -778,8 +813,8 @@ const Context = ({children}) => {
     },
     {
       image:image79,
-      name:"SILVER PENDANT #06",
-      price:"99",
+      name:"PENDANT #03",
+      price:"139",
       category:"necklaces",
       amount:"1",
       quantity:"99",
@@ -787,9 +822,225 @@ const Context = ({children}) => {
     },
     {
       image:image80,
-      name:"CLAY EARRING (FLOWER)",
-      price:"59",
+      name:"PENDANT #04",
+      price:"179",
+      category:"necklaces",
+      amount:"1",
+      quantity:"99",
+      available:"yes"
+    },
+    {
+      image:image81,
+      name:"PENDANT #05",
+      price:"99",
+      category:"necklaces",
+      amount:"1",
+      quantity:"99",
+      available:"yes"
+    },
+    {
+      image:image82,
+      name:"PENDANT #06",
+      price:"99",
+      category:"necklaces",
+      amount:"1",
+      quantity:"99",
+      available:"yes"
+    },
+    {
+      image:image83,
+      name:"PENDANT #07",
+      price:"99",
+      category:"necklaces",
+      amount:"1",
+      quantity:"99",
+      available:"yes"
+    },
+    {
+      image:image84,
+      name:"PENDANT #08",
+      price:"179",
+      category:"necklaces",
+      amount:"1",
+      quantity:"99",
+      available:"yes"
+    },
+    {
+      image:image85,
+      name:"PENDANT #09",
+      price:"139",
+      category:"necklaces",
+      amount:"1",
+      quantity:"99",
+      available:"yes"
+    },
+    {
+      image:image86,
+      name:"PENDANT #10 (Glow in the dark)",
+      price:"179",
+      category:"necklaces",
+      amount:"1",
+      quantity:"99",
+      available:"yes"
+    },
+    {
+      image:image87,
+      name:"PENDANT #11",
+      price:"149",
+      category:"necklaces",
+      amount:"1",
+      quantity:"99",
+      available:"yes"
+    },
+    {
+      image:image88,
+      name:"PENDANT #12",
+      price:"149",
+      category:"necklaces",
+      amount:"1",
+      quantity:"99",
+      available:"yes"
+    },
+    {
+      image:image89,
+      name:"PENDANT #13",
+      price:"139",
+      category:"necklaces",
+      amount:"1",
+      quantity:"99",
+      available:"yes"
+    },
+    {
+      image:image90,
+      name:"PENDANT #14",
+      price:"149",
+      category:"necklaces",
+      amount:"1",
+      quantity:"99",
+      available:"yes"
+    },
+    {
+      image:image91,
+      name:"PENDANT #15",
+      price:"149",
+      category:"necklaces",
+      amount:"1",
+      quantity:"99",
+      available:"yes"
+    },
+    {
+      image:image92,
+      name:"PENDANT #16 (Glow in the dark)",
+      price:"189",
+      category:"necklaces",
+      amount:"1",
+      quantity:"99",
+      available:"yes"
+    },
+    {
+      image:image93,
+      name:"PENDANT #17",
+      price:"179",
+      category:"necklaces",
+      amount:"1",
+      quantity:"99",
+      available:"yes"
+    },
+    {
+      image:image94,
+      name:"PENDANT #18",
+      price:"149",
+      category:"necklaces",
+      amount:"1",
+      quantity:"99",
+      available:"yes"
+    },
+    {
+      image:image96,
+      name:"PENDANT #19",
+      price:"99",
+      category:"necklaces",
+      amount:"1",
+      quantity:"99",
+      available:"yes"
+    },
+    {
+      image:image97,
+      name:"PENDANT #20",
+      price:"99",
+      category:"necklaces",
+      amount:"1",
+      quantity:"99",
+      available:"yes"
+    },
+    {
+      image:image98,
+      name:"PENDANT #21",
+      price:"99",
+      category:"necklaces",
+      amount:"1",
+      quantity:"99",
+      available:"yes"
+    },
+    {
+      image:image99,
+      name:"PENDANT #22",
+      price:"99",
       category:"earrings",
+      amount:"1",
+      quantity:"99",
+      available:"yes"
+    },
+    {
+      image:image100,
+      name:"YELLOW JEWELLERY SET WITH EARRINGS AND FINGER RINGS",
+      price:"449",
+      category:"jewellery set",
+      amount:"1",
+      quantity:"99",
+      available:"yes"
+    },
+    {
+      image:image101,
+      name:"JEWELLERY SET BLUE",
+      price:"349",
+      category:"jewellery set",
+      amount:"1",
+      quantity:"99",
+      available:"yes"
+    },
+    {
+      image:image102,
+      name:"CLAY EARRINGS PINK #01",
+      price:"159",
+      category:"earrings",
+      amount:"1",
+      quantity:"99",
+      available:"yes"
+    },
+    {
+      image:image103,
+      name:"CLAY EARRINGS PINK #02",
+      price:"159",
+      category:"earrings",
+      amount:"1",
+      quantity:"99",
+      available:"yes"
+    },
+    {
+      image:image104,
+      name:"FABRIC EARRINGS #06",
+      price:"99",
+      category:"fabric jewellery",
+      amount:"1",
+      quantity:"99",
+      available:"yes"
+    },
+    {
+      image:image105,
+      name:"FABRIC EARRINGS #07",
+      price:"99",
+      category:"fabric jewellery",
       amount:"1",
       quantity:"99",
       available:"yes"
