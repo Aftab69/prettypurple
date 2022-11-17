@@ -89,7 +89,6 @@ import image87 from "./Images/87.jpg"
 import image88 from "./Images/88.jpg"
 import image89 from "./Images/89.jpg"
 import image90 from "./Images/90.jpg"
-import image91 from "./Images/91.jpg"
 import image92 from "./Images/92.jpg"
 import image93 from "./Images/93.jpg"
 import image94 from "./Images/94.jpg"
@@ -920,17 +919,8 @@ const Context = ({children}) => {
       available:"yes"
     },
     {
-      image:image91,
-      name:"PENDANT #15",
-      price:"149",
-      category:"necklaces",
-      amount:"1",
-      quantity:"99",
-      available:"yes"
-    },
-    {
       image:image92,
-      name:"PENDANT #16 (Glow in the dark)",
+      name:"PENDANT #15 (Glow in the dark)",
       price:"189",
       category:"necklaces",
       amount:"1",
@@ -939,7 +929,7 @@ const Context = ({children}) => {
     },
     {
       image:image93,
-      name:"PENDANT #17",
+      name:"PENDANT #16",
       price:"179",
       category:"necklaces",
       amount:"1",
@@ -948,7 +938,7 @@ const Context = ({children}) => {
     },
     {
       image:image94,
-      name:"PENDANT #18",
+      name:"PENDANT #17",
       price:"149",
       category:"necklaces",
       amount:"1",
@@ -957,7 +947,7 @@ const Context = ({children}) => {
     },
     {
       image:image96,
-      name:"PENDANT #19",
+      name:"PENDANT #18",
       price:"99",
       category:"necklaces",
       amount:"1",
@@ -966,7 +956,7 @@ const Context = ({children}) => {
     },
     {
       image:image97,
-      name:"PENDANT #20",
+      name:"PENDANT #19",
       price:"99",
       category:"necklaces",
       amount:"1",
@@ -975,7 +965,7 @@ const Context = ({children}) => {
     },
     {
       image:image98,
-      name:"PENDANT #21",
+      name:"PENDANT #20",
       price:"99",
       category:"necklaces",
       amount:"1",
@@ -984,7 +974,7 @@ const Context = ({children}) => {
     },
     {
       image:image99,
-      name:"PENDANT #22",
+      name:"PENDANT #21",
       price:"99",
       category:"earrings",
       amount:"1",
