@@ -56,7 +56,7 @@ const Product = (props) => {
           </div>
           <div className='productButton'>
             { 
-            props.data.available!=="yes" ? <button>Out of Stock</button> :
+            Number(props.data.quantity)<1 ? <button>Out of Stock</button> :
             cart.includes(props.data) ?
             <button id={props.productName} onClick={handleRemoveFromCart}>Remove from Cart</button> :
             <button id={props.productName} onClick={handleAddToCart}>Add to Cart</button>

@@ -114,8 +114,7 @@ const Context = ({children}) => {
       price:"149",
       category:"earrings",
       amount:"1",
-      quantity:"99",
-      available:"yes"
+      quantity:"99"
     },
     {
       image:image2,
@@ -123,8 +122,7 @@ const Context = ({children}) => {
       price:"99",
       category:"earrings",
       amount:"1",
-      quantity:"99",
-      available:"yes"
+      quantity:"99"
     },
     {
       image:image3,
@@ -132,8 +130,7 @@ const Context = ({children}) => {
       price:"99",
       category:"fabric jewellery",
       amount:"1",
-      quantity:"1",
-      available:"yes"
+      quantity:"1"
     },
     {
       image:image4,
@@ -141,8 +138,7 @@ const Context = ({children}) => {
       price:"99",
       category:"keyrings",
       amount:"1",
-      quantity:"99",
-      available:"yes"
+      quantity:"99"
     },
     {
       image:image5,
@@ -150,8 +146,7 @@ const Context = ({children}) => {
       price:"149",
       category:"fabric jewellery",
       amount:"1",
-      quantity:"1",
-      available:"yes"
+      quantity:"1"
     },
     {
       image:image6,
@@ -159,8 +154,7 @@ const Context = ({children}) => {
       price:"149",
       category:"fabric jewellery",
       amount:"1",
-      quantity:"1",
-      available:"no"
+      quantity:"0"
     },
     {
       image:image7,
@@ -168,8 +162,7 @@ const Context = ({children}) => {
       price:"199",
       category:"fabric jewellery",
       amount:"1",
-      quantity:"1",
-      available:"no"
+      quantity:"0"
     },
     {
       image:image8,
@@ -177,8 +170,7 @@ const Context = ({children}) => {
       price:"149",
       category:"fabric jewellery",
       amount:"1",
-      quantity:"1",
-      available:"yes"
+      quantity:"1"
     },
     {
       image:image9,
@@ -186,8 +178,7 @@ const Context = ({children}) => {
       price:"149",
       category:"fabric jewellery",
       amount:"1",
-      quantity:"1",
-      available:"no"
+      quantity:"0"
     },
     {
       image:image10,
@@ -195,8 +186,7 @@ const Context = ({children}) => {
       price:"149",
       category:"fabric jewellery",
       amount:"1",
-      quantity:"1",
-      available:"no"
+      quantity:"0"
     },
     {
       image:image11,
@@ -204,8 +194,7 @@ const Context = ({children}) => {
       price:"99",
       category:"earrings",
       amount:"1",
-      quantity:"99",
-      available:"yes"
+      quantity:"99"
     },
     {
       image:image12,
@@ -213,8 +202,7 @@ const Context = ({children}) => {
       price:"99",
       category:"earrings",
       amount:"1",
-      quantity:"99",
-      available:"yes"
+      quantity:"99"
     },
     {
       image:image13,
@@ -222,8 +210,7 @@ const Context = ({children}) => {
       price:"149",
       category:"necklaces",
       amount:"1",
-      quantity:"99",
-      available:"yes"
+      quantity:"99"
     },
     {
       image:image14,
@@ -231,8 +218,7 @@ const Context = ({children}) => {
       price:"119",
       category:"earrings",
       amount:"1",
-      quantity:"99",
-      available:"yes"
+      quantity:"99"
     },
     {
       image:image15,
@@ -240,8 +226,7 @@ const Context = ({children}) => {
       price:"59",
       category:"earrings",
       amount:"1",
-      quantity:"99",
-      available:"yes"
+      quantity:"99"
     },
     {
       image:image16,
@@ -249,8 +234,7 @@ const Context = ({children}) => {
       price:"119",
       category:"earrings",
       amount:"1",
-      quantity:"99",
-      available:"yes"
+      quantity:"99"
     },
     {
       image:image17,
@@ -258,8 +242,7 @@ const Context = ({children}) => {
       price:"149",
       category:"keyrings",
       amount:"1",
-      quantity:"99",
-      available:"yes"
+      quantity:"99"
     },
     {
       image:image18,
@@ -267,8 +250,7 @@ const Context = ({children}) => {
       price:"119",
       category:"earrings",
       amount:"1",
-      quantity:"99",
-      available:"yes"
+      quantity:"99"
     },
     {
       image:image19,
@@ -276,8 +258,7 @@ const Context = ({children}) => {
       price:"49",
       category:"earrings",
       amount:"1",
-      quantity:"99",
-      available:"yes"
+      quantity:"99"
     },
     {
       image:image20,
@@ -285,8 +266,7 @@ const Context = ({children}) => {
       price:"129",
       category:"keyrings",
       amount:"1",
-      quantity:"99",
-      available:"yes"
+      quantity:"99"
     },
     {
       image:image21,
@@ -294,8 +274,7 @@ const Context = ({children}) => {
       price:"119",
       category:"earrings",
       amount:"1",
-      quantity:"99",
-      available:"yes"
+      quantity:"99"
     },
     {
       image:image22,
@@ -303,8 +282,7 @@ const Context = ({children}) => {
       price:"49",
       category:"earrings",
       amount:"1",
-      quantity:"99",
-      available:"yes"
+      quantity:"99"
     },
     {
       image:image23,
@@ -312,8 +290,7 @@ const Context = ({children}) => {
       price:"49",
       category:"earrings",
       amount:"1",
-      quantity:"99",
-      available:"yes"
+      quantity:"99"
     },
     {
       image:image24,
@@ -321,8 +298,7 @@ const Context = ({children}) => {
       price:"79",
       category:"earrings",
       amount:"1",
-      quantity:"99",
-      available:"yes"
+      quantity:"99"
     },
     {
       image:image25,
@@ -330,8 +306,7 @@ const Context = ({children}) => {
       price:"49",
       category:"earrings",
       amount:"1",
-      quantity:"99",
-      available:"yes"
+      quantity:"99"
     },
     {
       image:image26,
@@ -339,8 +314,7 @@ const Context = ({children}) => {
       price:"129",
       category:"fabric jewellery",
       amount:"1",
-      quantity:"1",
-      available:"no"
+      quantity:"0"
     },
     {
       image:image27,
@@ -348,8 +322,7 @@ const Context = ({children}) => {
       price:"59",
       category:"fabric jewellery",
       amount:"1",
-      quantity:"1",
-      available:"yes"
+      quantity:"1"
     },
     {
       image:image28,
@@ -357,8 +330,7 @@ const Context = ({children}) => {
       price:"99",
       category:"fabric jewellery",
       amount:"1",
-      quantity:"1",
-      available:"yes"
+      quantity:"1"
     },
     {
       image:image29,
@@ -366,8 +338,7 @@ const Context = ({children}) => {
       price:"159",
       category:"earrings",
       amount:"1",
-      quantity:"99",
-      available:"yes"
+      quantity:"99"
     },
     {
       image:image30,
@@ -375,8 +346,7 @@ const Context = ({children}) => {
       price:"59",
       category:"earrings",
       amount:"1",
-      quantity:"99",
-      available:"yes"
+      quantity:"99"
     },
     {
       image:image31,
@@ -384,8 +354,7 @@ const Context = ({children}) => {
       price:"159",
       category:"earrings",
       amount:"1",
-      quantity:"99",
-      available:"yes"
+      quantity:"99"
     },
     {
       image:image32,
@@ -393,8 +362,7 @@ const Context = ({children}) => {
       price:"159",
       category:"earrings",
       amount:"1",
-      quantity:"99",
-      available:"yes"
+      quantity:"99"
     },
     {
       image:image33,
@@ -402,8 +370,7 @@ const Context = ({children}) => {
       price:"59",
       category:"fabric jewellery",
       amount:"1",
-      quantity:"1",
-      available:"yes"
+      quantity:"1"
     },
     {
       image:image34,
@@ -411,8 +378,7 @@ const Context = ({children}) => {
       price:"49",
       category:"earrings",
       amount:"1",
-      quantity:"99",
-      available:"yes"
+      quantity:"99"
     },
     {
       image:image35,
@@ -420,8 +386,7 @@ const Context = ({children}) => {
       price:"59",
       category:"earrings",
       amount:"1",
-      quantity:"99",
-      available:"yes"
+      quantity:"99"
     },
     {
       image:image36,
@@ -429,8 +394,7 @@ const Context = ({children}) => {
       price:"59",
       category:"earrings",
       amount:"1",
-      quantity:"99",
-      available:"yes"
+      quantity:"99"
     },
     {
       image:image37,
@@ -438,8 +402,7 @@ const Context = ({children}) => {
       price:"69",
       category:"earrings",
       amount:"1",
-      quantity:"99",
-      available:"yes"
+      quantity:"99"
     },
     {
       image:image38,
@@ -447,8 +410,7 @@ const Context = ({children}) => {
       price:"49",
       category:"earrings",
       amount:"1",
-      quantity:"99",
-      available:"yes"
+      quantity:"99"
     },
     {
       image:image39,
@@ -456,8 +418,7 @@ const Context = ({children}) => {
       price:"49",
       category:"earrings",
       amount:"1",
-      quantity:"99",
-      available:"yes"
+      quantity:"99"
     },
     {
       image:image40,
@@ -465,8 +426,7 @@ const Context = ({children}) => {
       price:"49",
       category:"earrings",
       amount:"1",
-      quantity:"99",
-      available:"yes"
+      quantity:"99"
     },
     {
       image:image41,
@@ -474,8 +434,7 @@ const Context = ({children}) => {
       price:"59",
       category:"fabric jewellery",
       amount:"1",
-      quantity:"1",
-      available:"yes"
+      quantity:"1"
     },
     {
       image:image42,
@@ -483,8 +442,7 @@ const Context = ({children}) => {
       price:"89",
       category:"fabric jewellery",
       amount:"1",
-      quantity:"1",
-      available:"yes"
+      quantity:"1"
     },
     {
       image:image43,
@@ -492,8 +450,7 @@ const Context = ({children}) => {
       price:"69",
       category:"fabric jewellery",
       amount:"1",
-      quantity:"1",
-      available:"yes"
+      quantity:"1"
     },
     {
       image:image44,
@@ -501,8 +458,7 @@ const Context = ({children}) => {
       price:"129",
       category:"fabric jewellery",
       amount:"1",
-      quantity:"1",
-      available:"yes"
+      quantity:"1"
     },
     {
       image:image45,
@@ -510,8 +466,7 @@ const Context = ({children}) => {
       price:"79",
       category:"fabric jewellery",
       amount:"1",
-      quantity:"1",
-      available:"yes"
+      quantity:"1"
     },
     {
       image:image46,
@@ -519,8 +474,7 @@ const Context = ({children}) => {
       price:"119",
       category:"fabric jewellery",
       amount:"1",
-      quantity:"1",
-      available:"yes"
+      quantity:"1"
     },
     {
       image:image47,
@@ -528,8 +482,7 @@ const Context = ({children}) => {
       price:"59",
       category:"accessories",
       amount:"1",
-      quantity:"99",
-      available:"yes"
+      quantity:"99"
     },
     {
       image:image48,
@@ -537,8 +490,7 @@ const Context = ({children}) => {
       price:"129",
       category:"fabric jewellery",
       amount:"1",
-      quantity:"1",
-      available:"yes"
+      quantity:"1"
     },
     {
       image:image49,
@@ -546,8 +498,7 @@ const Context = ({children}) => {
       price:"99",
       category:"fabric jewellery",
       amount:"1",
-      quantity:"1",
-      available:"yes"
+      quantity:"1"
     },
     {
       image:image50,
@@ -555,8 +506,7 @@ const Context = ({children}) => {
       price:"129",
       category:"fabric jewellery",
       amount:"1",
-      quantity:"1",
-      available:"yes"
+      quantity:"1"
     },
     {
       image:image51,
@@ -564,8 +514,7 @@ const Context = ({children}) => {
       price:"149",
       category:"fabric jewellery",
       amount:"1",
-      quantity:"1",
-      available:"yes"
+      quantity:"1"
     },
     {
       image:image52,
@@ -573,8 +522,7 @@ const Context = ({children}) => {
       price:"119",
       category:"fabric jewellery",
       amount:"1",
-      quantity:"1",
-      available:"yes"
+      quantity:"1"
     },
     {
       image:image53,
@@ -582,8 +530,7 @@ const Context = ({children}) => {
       price:"159",
       category:"fabric jewellery",
       amount:"1",
-      quantity:"1",
-      available:"yes"
+      quantity:"1"
     },
     {
       image:image54,
@@ -591,8 +538,7 @@ const Context = ({children}) => {
       price:"169",
       category:"fabric jewellery",
       amount:"1",
-      quantity:"1",
-      available:"no"
+      quantity:"0"
     },
     {
       image:image55,
@@ -600,8 +546,7 @@ const Context = ({children}) => {
       price:"149",
       category:"fabric jewellery",
       amount:"1",
-      quantity:"1",
-      available:"no"
+      quantity:"0"
     },
     {
       image:image56,
@@ -609,8 +554,7 @@ const Context = ({children}) => {
       price:"149",
       category:"fabric jewellery",
       amount:"1",
-      quantity:"1",
-      available:"yes"
+      quantity:"1"
     },
     {
       image:image57,
@@ -618,8 +562,7 @@ const Context = ({children}) => {
       price:"99",
       category:"earrings",
       amount:"1",
-      quantity:"99",
-      available:"yes"
+      quantity:"99"
     },
     {
       image:image58,
@@ -627,8 +570,7 @@ const Context = ({children}) => {
       price:"149",
       category:"earrings",
       amount:"1",
-      quantity:"99",
-      available:"yes"
+      quantity:"99"
     },
     {
       image:image59,
@@ -636,8 +578,7 @@ const Context = ({children}) => {
       price:"139",
       category:"earrings",
       amount:"1",
-      quantity:"99",
-      available:"yes"
+      quantity:"99"
     },
     {
       image:image60,
@@ -645,8 +586,7 @@ const Context = ({children}) => {
       price:"49",
       category:"earrings",
       amount:"1",
-      quantity:"99",
-      available:"yes"
+      quantity:"99"
     },
     {
       image:image61,
@@ -654,8 +594,7 @@ const Context = ({children}) => {
       price:"139",
       category:"earrings",
       amount:"1",
-      quantity:"99",
-      available:"yes"
+      quantity:"99"
     },
     {
       image:image62,
@@ -663,8 +602,7 @@ const Context = ({children}) => {
       price:"139",
       category:"earrings",
       amount:"1",
-      quantity:"99",
-      available:"yes"
+      quantity:"99"
     },
     {
       image:image63,
@@ -672,8 +610,7 @@ const Context = ({children}) => {
       price:"129",
       category:"earrings",
       amount:"1",
-      quantity:"99",
-      available:"yes"
+      quantity:"99"
     },
     {
       image:image64,
@@ -681,8 +618,7 @@ const Context = ({children}) => {
       price:"59",
       category:"earrings",
       amount:"1",
-      quantity:"99",
-      available:"yes"
+      quantity:"99"
     },
     {
       image:image65,
@@ -690,8 +626,7 @@ const Context = ({children}) => {
       price:"59",
       category:"earrings",
       amount:"1",
-      quantity:"99",
-      available:"yes"
+      quantity:"99"
     },
     {
       image:image66,
@@ -699,8 +634,7 @@ const Context = ({children}) => {
       price:"149",
       category:"earrings",
       amount:"1",
-      quantity:"99",
-      available:"yes"
+      quantity:"99"
     },
     {
       image:image67,
@@ -708,8 +642,7 @@ const Context = ({children}) => {
       price:"139",
       category:"earrings",
       amount:"1",
-      quantity:"99",
-      available:"yes"
+      quantity:"99"
     },
     {
       image:image68,
@@ -717,8 +650,7 @@ const Context = ({children}) => {
       price:"59",
       category:"earrings",
       amount:"1",
-      quantity:"99",
-      available:"yes"
+      quantity:"99"
     },
     {
       image:image69,
@@ -726,8 +658,7 @@ const Context = ({children}) => {
       price:"139",
       category:"phonecharms",
       amount:"1",
-      quantity:"99",
-      available:"yes"
+      quantity:"99"
     },
     {
       image:image70,
@@ -735,8 +666,7 @@ const Context = ({children}) => {
       price:"99",
       category:"phonecharms",
       amount:"1",
-      quantity:"99",
-      available:"yes"
+      quantity:"99"
     },
     {
       image:image71,
@@ -744,8 +674,7 @@ const Context = ({children}) => {
       price:"149",
       category:"phonecharms",
       amount:"1",
-      quantity:"99",
-      available:"yes"
+      quantity:"99"
     },
     {
       image:image72,
@@ -753,8 +682,7 @@ const Context = ({children}) => {
       price:"99",
       category:"phonecharms",
       amount:"1",
-      quantity:"99",
-      available:"yes"
+      quantity:"99"
     },
     {
       image:image73,
@@ -762,8 +690,7 @@ const Context = ({children}) => {
       price:"59",
       category:"accessories",
       amount:"1",
-      quantity:"99",
-      available:"yes"
+      quantity:"99"
     },
     {
       image:image74,
@@ -771,8 +698,7 @@ const Context = ({children}) => {
       price:"59",
       category:"accessories",
       amount:"1",
-      quantity:"99",
-      available:"yes"
+      quantity:"99"
     },
     {
       image:image75,
@@ -780,8 +706,7 @@ const Context = ({children}) => {
       price:"59",
       category:"accessories",
       amount:"1",
-      quantity:"99",
-      available:"yes"
+      quantity:"99"
     },
     {
       image:image76,
@@ -789,8 +714,7 @@ const Context = ({children}) => {
       price:"59",
       category:"accessories",
       amount:"1",
-      quantity:"99",
-      available:"yes"
+      quantity:"99"
     },
     {
       image:image77,
@@ -798,8 +722,7 @@ const Context = ({children}) => {
       price:"99",
       category:"necklaces",
       amount:"1",
-      quantity:"99",
-      available:"yes"
+      quantity:"99"
     },
     {
       image:image78,
@@ -807,8 +730,7 @@ const Context = ({children}) => {
       price:"129",
       category:"necklaces",
       amount:"1",
-      quantity:"99",
-      available:"yes"
+      quantity:"99"
     },
     {
       image:image79,
@@ -816,8 +738,7 @@ const Context = ({children}) => {
       price:"139",
       category:"necklaces",
       amount:"1",
-      quantity:"99",
-      available:"yes"
+      quantity:"99"
     },
     {
       image:image80,
@@ -825,8 +746,7 @@ const Context = ({children}) => {
       price:"179",
       category:"necklaces",
       amount:"1",
-      quantity:"99",
-      available:"yes"
+      quantity:"99"
     },
     {
       image:image81,
@@ -834,8 +754,7 @@ const Context = ({children}) => {
       price:"99",
       category:"necklaces",
       amount:"1",
-      quantity:"99",
-      available:"yes"
+      quantity:"99"
     },
     {
       image:image82,
@@ -843,8 +762,7 @@ const Context = ({children}) => {
       price:"99",
       category:"necklaces",
       amount:"1",
-      quantity:"99",
-      available:"yes"
+      quantity:"99"
     },
     {
       image:image83,
@@ -852,8 +770,7 @@ const Context = ({children}) => {
       price:"99",
       category:"necklaces",
       amount:"1",
-      quantity:"99",
-      available:"yes"
+      quantity:"99"
     },
     {
       image:image84,
@@ -861,8 +778,7 @@ const Context = ({children}) => {
       price:"179",
       category:"necklaces",
       amount:"1",
-      quantity:"99",
-      available:"yes"
+      quantity:"99"
     },
     {
       image:image85,
@@ -870,8 +786,7 @@ const Context = ({children}) => {
       price:"139",
       category:"necklaces",
       amount:"1",
-      quantity:"99",
-      available:"yes"
+      quantity:"99"
     },
     {
       image:image86,
@@ -879,8 +794,7 @@ const Context = ({children}) => {
       price:"179",
       category:"necklaces",
       amount:"1",
-      quantity:"99",
-      available:"yes"
+      quantity:"99"
     },
     {
       image:image87,
@@ -888,8 +802,7 @@ const Context = ({children}) => {
       price:"149",
       category:"necklaces",
       amount:"1",
-      quantity:"99",
-      available:"yes"
+      quantity:"99"
     },
     {
       image:image88,
@@ -897,8 +810,7 @@ const Context = ({children}) => {
       price:"149",
       category:"necklaces",
       amount:"1",
-      quantity:"99",
-      available:"yes"
+      quantity:"99"
     },
     {
       image:image89,
@@ -906,8 +818,7 @@ const Context = ({children}) => {
       price:"139",
       category:"necklaces",
       amount:"1",
-      quantity:"99",
-      available:"yes"
+      quantity:"99"
     },
     {
       image:image90,
@@ -915,8 +826,7 @@ const Context = ({children}) => {
       price:"149",
       category:"necklaces",
       amount:"1",
-      quantity:"99",
-      available:"yes"
+      quantity:"99"
     },
     {
       image:image92,
@@ -924,8 +834,7 @@ const Context = ({children}) => {
       price:"189",
       category:"necklaces",
       amount:"1",
-      quantity:"99",
-      available:"yes"
+      quantity:"99"
     },
     {
       image:image93,
@@ -933,8 +842,7 @@ const Context = ({children}) => {
       price:"179",
       category:"necklaces",
       amount:"1",
-      quantity:"99",
-      available:"yes"
+      quantity:"99"
     },
     {
       image:image94,
@@ -942,8 +850,7 @@ const Context = ({children}) => {
       price:"149",
       category:"necklaces",
       amount:"1",
-      quantity:"99",
-      available:"yes"
+      quantity:"99"
     },
     {
       image:image96,
@@ -951,8 +858,7 @@ const Context = ({children}) => {
       price:"99",
       category:"necklaces",
       amount:"1",
-      quantity:"99",
-      available:"yes"
+      quantity:"99"
     },
     {
       image:image97,
@@ -960,8 +866,7 @@ const Context = ({children}) => {
       price:"99",
       category:"necklaces",
       amount:"1",
-      quantity:"99",
-      available:"yes"
+      quantity:"99"
     },
     {
       image:image98,
@@ -969,8 +874,7 @@ const Context = ({children}) => {
       price:"99",
       category:"necklaces",
       amount:"1",
-      quantity:"99",
-      available:"yes"
+      quantity:"99"
     },
     {
       image:image99,
@@ -978,8 +882,7 @@ const Context = ({children}) => {
       price:"99",
       category:"earrings",
       amount:"1",
-      quantity:"99",
-      available:"yes"
+      quantity:"99"
     },
     {
       image:image100,
@@ -987,8 +890,7 @@ const Context = ({children}) => {
       price:"449",
       category:"jewellery set",
       amount:"1",
-      quantity:"99",
-      available:"yes"
+      quantity:"99"
     },
     {
       image:image101,
@@ -996,8 +898,7 @@ const Context = ({children}) => {
       price:"349",
       category:"jewellery set",
       amount:"1",
-      quantity:"99",
-      available:"yes"
+      quantity:"99"
     },
     {
       image:image102,
@@ -1005,8 +906,7 @@ const Context = ({children}) => {
       price:"159",
       category:"earrings",
       amount:"1",
-      quantity:"99",
-      available:"yes"
+      quantity:"99"
     },
     {
       image:image103,
@@ -1014,8 +914,7 @@ const Context = ({children}) => {
       price:"159",
       category:"earrings",
       amount:"1",
-      quantity:"99",
-      available:"yes"
+      quantity:"99"
     },
     {
       image:image104,
@@ -1023,8 +922,7 @@ const Context = ({children}) => {
       price:"99",
       category:"fabric jewellery",
       amount:"1",
-      quantity:"99",
-      available:"yes"
+      quantity:"99"
     },
     {
       image:image105,
@@ -1032,8 +930,7 @@ const Context = ({children}) => {
       price:"99",
       category:"fabric jewellery",
       amount:"1",
-      quantity:"99",
-      available:"yes"
+      quantity:"99"
     }
   ])
     let [ itemnumber, setItemnumber ] = useState(0);
