@@ -15,7 +15,7 @@ const Context = ({children}) => {
         })
         const datanew = await res.json();
         setFilter(datanew)
-        setProducts(datanew)
+        setProducts(datanew.reverse())
       }catch(error){
         console.log(error)
       }
