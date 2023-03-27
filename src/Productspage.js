@@ -69,7 +69,7 @@ const Productspage = () => {
         <button name="necklaces" onClick={handlefilter}>NECKLACES</button>
         <button name="accessories" onClick={handlefilter}>ACCESSORIES</button>
         <button name="jewellery set" onClick={handlefilter}>JEWELLERY SET</button>
-        <button name="phonecharms" onClick={handlefilter}>PHONE CHARMS</button>
+        <button name="phonecharms" onClick={handlefilter}>PHONE CHARM</button>
       </div>
       <div className='productspageContainer'>
         {
